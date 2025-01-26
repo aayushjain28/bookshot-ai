@@ -1,24 +1,22 @@
-import OpenAI from "openai"
+import "./globals.css"
+import { Inter } from "next/font/google"
 
-const openai = new OpenAI({
-  apiKey: process.env.OPENAI_API_KEY,
-})
+const inter = Inter({ subsets: ["latin"] })
 
-export async function categorizeBookmark(title: string, url: string): Promise<string> {
-  const prompt = `Given the following bookmark title and URL, categorize it into one of these categories: Work, Personal, Learning, Entertainment.
+export const metadata = {
+  title: "Bookshot.AI",
+  description: "Bookmark anything, just with a screenshot",
+}
 
-Title: ${title}
-URL: ${url}
-
-Please respond with only the category name.`
-
-  const response = await openai.chat.completions.create({
-    model: "gpt-3.5-turbo",
-    messages: [{ role: "user", content: prompt }],
-    max_tokens: 10,
-  })
-
-  const category = response.choices[0].message.content?.trim() || "Uncategorized"
-  return category
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode
+}) {
+  return (
+    <html lang="en">
+      <body className={inter.className}>{children}</body>
+    </html>
+  )
 }
 
