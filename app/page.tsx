@@ -1,60 +1,24 @@
-"use client"
+import OpenAI from "openai"
 
-import { useState } from "react"
+const openai = new OpenAI({
+  apiKey: process.env.OPENAI_API_KEY,
+})
 
-export default function Home() {
-  const [bookmarks, setBookmarks] = useState([])
-  const [newBookmark, setNewBookmark] = useState({ title: "", url: "" })
+export async function categorizeBookmark(title: string, url: string): Promise<string> {
+  const prompt = `Given the following bookmark title and URL, categorize it into one of these categories: Work, Personal, Learning, Entertainment.
 
-  const addBookmark = () => {
-    if (newBookmark.title && newBookmark.url) {
-      setBookmarks([...bookmarks, newBookmark])
-      setNewBookmark({ title: "", url: "" })
-    }
-  }
+Title: ${title}
+URL: ${url}
 
-  return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm">
-        <h1 className="text-4xl font-bold mb-8">Bookshot.AI</h1>
+Please respond with only the category name.`
 
-        <div className="mb-8">
-          <input
-            type="text"
-            placeholder="Bookmark Title"
-            value={newBookmark.title}
-            onChange={(e) => setNewBookmark({ ...newBookmark, title: e.target.value })}
-            className="mb-2 p-2 border rounded w-full"
-          />
-          <input
-            type="url"
-            placeholder="Bookmark URL"
-            value={newBookmark.url}
-            onChange={(e) => setNewBookmark({ ...newBookmark, url: e.target.value })}
-            className="mb-2 p-2 border rounded w-full"
-          />
-          <button onClick={addBookmark} className="bg-blue-500 text-white p-2 rounded">
-            Add Bookmark
-          </button>
-        </div>
+  const response = await openai.chat.completions.create({
+    model: "gpt-3.5-turbo",
+    messages: [{ role: "user", content: prompt }],
+    max_tokens: 10,
+  })
 
-        <div>
-          <h2 className="text-2xl font-bold mb-4">Your Bookmarks</h2>
-          {bookmarks.map((bookmark, index) => (
-            <div key={index} className="mb-2">
-              <a
-                href={bookmark.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-blue-500 hover:underline"
-              >
-                {bookmark.title}
-              </a>
-            </div>
-          ))}
-        </div>
-      </div>
-    </main>
-  )
+  const category = response.choices[0].message.content?.trim() || "Uncategorized"
+  return category
 }
 
