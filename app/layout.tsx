@@ -1,22 +1,22 @@
-import "./globals.css"
-import { Inter } from "next/font/google"
+import type { Metadata } from "next";
+import { Nav } from "@/components/nav";
+import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] })
-
-export const metadata = {
-  title: "Bookshot.AI",
-  description: "Bookmark anything, just with a screenshot",
-}
+export const metadata: Metadata = {
+  title: "First Principles University",
+  description:
+    "A beautiful learning platform that teaches how the world works from first principles.",
+};
 
 export default function RootLayout({
   children,
-}: {
-  children: React.ReactNode
-}) {
+}: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body>
+        <Nav />
+        {children}
+      </body>
     </html>
-  )
+  );
 }
-
