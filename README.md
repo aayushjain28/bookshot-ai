@@ -1,25 +1,28 @@
-# Welcome to Next.js
+# First Principles University (FPU)
 
-This is the most minimal starter for your Next.js project.
+A learning platform that teaches how the world works from first principles — one connected story from the Big Bang to AI. Understanding, not memorization.
 
-## Deploy your own
+## MVP
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/next.js/tree/canary/examples/hello-world&project-name=hello-world&repository-name=hello-world)
+- **Landing** (`/`) — the pitch and the story arc
+- **Home** (`/home`) — continue learning, progress at a glance
+- **Curriculum** (`/curriculum`) — all concepts grouped by domain
+- **Concept** (`/concepts/[slug]`) — the lesson: key question, mental model, quiz, reflection
+- **Progress** (`/progress`) — journey timeline
+- **Search** (`/search`) — client-side search over all concepts
+- **Profile** (`/profile`) — stats and progress reset
 
-## How to use
+Three concepts are complete (History of Everything, Hunter-Gatherers, Agricultural Revolution); the rest are Coming Soon. Progress is stored in `localStorage` — static data first, no backend.
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+## Stack
+
+Next.js (App Router) · TypeScript · Tailwind CSS · Framer Motion · Lucide
+
+## Develop
 
 ```bash
-npx create-next-app --example hello-world hello-world-app
+npm install
+npm run dev
 ```
 
-```bash
-yarn create next-app --example hello-world hello-world-app
-```
-
-```bash
-pnpm create next-app --example hello-world hello-world-app
-```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+Concept content lives in `lib/data/concepts.ts` as Knowledge Objects (see `lib/types.ts` and `docs/06-data-model.md`).

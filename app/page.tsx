@@ -1,117 +1,73 @@
-"use client"
+"use client";
 
-import { useState } from "react"
-import { Button } from "@/components/ui/button"
-import { Input } from "@/components/ui/input"
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
-import { Badge } from "@/components/ui/badge"
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
-import { categorizeBookmark } from "@/lib/ai-service"
+import Link from "next/link";
+import { motion } from "framer-motion";
+import { ArrowRight } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
-interface Bookmark {
-  id: string
-  title: string
-  url: string
-  category: string
-}
+const chapters = [
+  "Big Bang",
+  "Universe",
+  "Earth",
+  "Life",
+  "Humans",
+  "Civilization",
+  "Economics",
+  "Technology",
+  "AI",
+];
 
-export default function Home() {
-  const [bookmarks, setBookmarks] = useState<Bookmark[]>([])
-  const [newBookmark, setNewBookmark] = useState({ title: "", url: "" })
-  const [isLoading, setIsLoading] = useState(false)
-  const [filter, setFilter] = useState("all")
-
-  const addBookmark = async () => {
-    if (newBookmark.title && newBookmark.url) {
-      setIsLoading(true)
-      try {
-        const category = await categorizeBookmark(newBookmark.title, newBookmark.url)
-        setBookmarks([...bookmarks, { ...newBookmark, id: Date.now().toString(), category }])
-        setNewBookmark({ title: "", url: "" })
-      } catch (error) {
-        console.error("Error categorizing bookmark:", error)
-        // If AI categorization fails, add bookmark with 'Uncategorized' category
-        setBookmarks([...bookmarks, { ...newBookmark, id: Date.now().toString(), category: "Uncategorized" }])
-      } finally {
-        setIsLoading(false)
-      }
-    }
-  }
-
-  const categories = ["Work", "Personal", "Learning", "Entertainment", "Uncategorized"]
-  const filteredBookmarks = filter === "all" ? bookmarks : bookmarks.filter((b) => b.category === filter)
-
+export default function LandingPage() {
   return (
-    <main className="flex min-h-screen flex-col items-center p-24">
-      <div className="w-full max-w-4xl">
-        <h1 className="text-4xl font-bold mb-8 text-center">Bookshot.AI</h1>
+    <main className="mx-auto flex min-h-screen max-w-3xl flex-col items-center justify-center gap-10 px-6 py-24 text-center">
+      <motion.div
+        initial={{ opacity: 0, y: 16 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6 }}
+        className="flex flex-col items-center gap-6"
+      >
+        <p className="text-sm font-medium uppercase tracking-widest text-accent">
+          First Principles University
+        </p>
+        <h1 className="font-serif text-4xl leading-tight sm:text-5xl">
+          Understand how the world works,
+          <br />
+          one concept at a time.
+        </h1>
+        <p className="max-w-xl text-lg text-muted">
+          One connected story — from the Big Bang to AI. Understanding, not
+          memorization.
+        </p>
+      </motion.div>
 
-        <Card className="mb-8">
-          <CardHeader>
-            <CardTitle>Add New Bookmark</CardTitle>
-            <CardDescription>Enter the details of your new bookmark</CardDescription>
-          </CardHeader>
-          <CardContent className="space-y-4">
-            <Input
-              type="text"
-              placeholder="Bookmark Title"
-              value={newBookmark.title}
-              onChange={(e) => setNewBookmark({ ...newBookmark, title: e.target.value })}
-            />
-            <Input
-              type="url"
-              placeholder="Bookmark URL"
-              value={newBookmark.url}
-              onChange={(e) => setNewBookmark({ ...newBookmark, url: e.target.value })}
-            />
-          </CardContent>
-          <CardFooter>
-            <Button onClick={addBookmark} disabled={isLoading}>
-              {isLoading ? "Adding..." : "Add Bookmark"}
-            </Button>
-          </CardFooter>
-        </Card>
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 0.4, duration: 0.6 }}
+        className="flex flex-wrap items-center justify-center gap-x-2 gap-y-1 text-sm text-muted"
+      >
+        {chapters.map((chapter, i) => (
+          <span key={chapter} className="flex items-center gap-2">
+            {chapter}
+            {i < chapters.length - 1 && (
+              <ArrowRight className="h-3 w-3 text-border" />
+            )}
+          </span>
+        ))}
+      </motion.div>
 
-        <div className="mb-4">
-          <Select onValueChange={setFilter}>
-            <SelectTrigger>
-              <SelectValue placeholder="Filter by category" />
-            </SelectTrigger>
-            <SelectContent>
-              <SelectItem value="all">All Categories</SelectItem>
-              {categories.map((category) => (
-                <SelectItem key={category} value={category}>
-                  {category}
-                </SelectItem>
-              ))}
-            </SelectContent>
-          </Select>
-        </div>
-
-        <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
-          {filteredBookmarks.map((bookmark) => (
-            <Card key={bookmark.id}>
-              <CardHeader>
-                <CardTitle className="text-lg">{bookmark.title}</CardTitle>
-                <CardDescription>
-                  <Badge>{bookmark.category}</Badge>
-                </CardDescription>
-              </CardHeader>
-              <CardContent>
-                <a
-                  href={bookmark.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-blue-500 hover:underline"
-                >
-                  Visit Site
-                </a>
-              </CardContent>
-            </Card>
-          ))}
-        </div>
-      </div>
+      <motion.div
+        initial={{ opacity: 0, y: 8 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.6, duration: 0.5 }}
+      >
+        <Link href="/home">
+          <Button className="px-6 py-3 text-base">
+            Start learning
+            <ArrowRight className="h-4 w-4" />
+          </Button>
+        </Link>
+      </motion.div>
     </main>
-  )
+  );
 }
-
