@@ -88,16 +88,16 @@ export default function ProgressPage() {
                 )}
               </div>
               <div className="pb-8">
-                {available ? (
-                  <Link
-                    href={`/concepts/${concept.slug}`}
-                    className="font-medium hover:text-accent"
-                  >
-                    {concept.title}
-                  </Link>
-                ) : (
-                  <span className="text-muted">{concept.title}</span>
-                )}
+                <Link
+                  href={`/concepts/${concept.slug}`}
+                  className={
+                    available
+                      ? "font-medium hover:text-accent"
+                      : "text-muted hover:text-accent"
+                  }
+                >
+                  {concept.title}
+                </Link>
                 <p className="text-sm text-muted">
                   {available ? concept.summary : "Coming soon"}
                 </p>

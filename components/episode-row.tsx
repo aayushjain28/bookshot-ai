@@ -2,7 +2,7 @@
 
 import { CheckCircle2, Circle, ExternalLink } from "lucide-react";
 import type { Episode } from "@/lib/types";
-import { cn } from "@/lib/utils";
+import { Badge } from "@/components/ui/badge";
 
 export function EpisodeRow({
   episode,
@@ -17,10 +17,7 @@ export function EpisodeRow({
 }) {
   return (
     <div
-      className={cn(
-        "flex items-start gap-3 rounded-xl border border-border bg-card p-4",
-        watched && "opacity-60"
-      )}
+      className="flex items-start gap-3 rounded-xl border border-border bg-card p-4"
     >
       <button
         onClick={() => onToggle(episode.id)}
@@ -46,7 +43,10 @@ export function EpisodeRow({
             )}
             {episode.title}
           </span>
-          <ExternalLink className="mt-1 h-3.5 w-3.5 shrink-0 text-muted" />
+          <span className="flex shrink-0 items-center gap-2">
+            {watched && <Badge className="bg-accent-soft">Watched</Badge>}
+            <ExternalLink className="mt-0.5 h-3.5 w-3.5 text-muted" />
+          </span>
         </a>
         <p className="mt-0.5 text-sm text-muted">
           {episode.creator}
