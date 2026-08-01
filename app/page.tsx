@@ -35,7 +35,8 @@ export default function LandingPage() {
           one commute at a time.
         </h1>
         <p className="max-w-xl text-lg text-muted">
-          One curated video every morning at 8:45 — money, markets, startups,
+          One curated video every weekday morning at 8:45 — money, markets,
+          startups,
           history, systems, machines, food, and music. Understanding, not
           memorization.
         </p>

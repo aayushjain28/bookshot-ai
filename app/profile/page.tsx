@@ -55,7 +55,7 @@ export default function ProfilePage() {
         <h2 className="font-medium">Daily reminder</h2>
         <p className="mt-1 text-sm text-muted">
           Add a recurring 8:45 AM event to your calendar — 30 minutes, one
-          video, every day.
+          video, every weekday.
         </p>
         <a
           href={asset("/fpu-daily-reminder.ics")}
