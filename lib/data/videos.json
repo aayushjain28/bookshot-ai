@@ -372,12 +372,12 @@
         },
         {
           "order": 12,
-          "title": "How VCs make billions - explained by a VC",
-          "creator": "Breakdown (Zero1 Network)",
-          "url": "https://www.youtube.com/watch?v=hv3GKosCnn4",
+          "title": "How VC works | Introduction to Venture Capital 101",
+          "creator": "Harvard Innovation Labs",
+          "url": "https://www.youtube.com/watch?v=zMPuTzcf7-U",
           "durationMin": null,
           "subtopic": "VC fund economics",
-          "why": "A working VC explains LPs, management fees, carry, and the power law — why funds happily bankroll loss-making companies for years chasing one outlier that returns the fund."
+          "why": "Straight from Harvard Innovation Labs: how a VC fund is structured — LPs, management fees, carry, and the power law — so you understand why funds bankroll loss-making companies for years chasing one outlier that returns the whole fund."
         },
         {
           "order": 13,
@@ -868,12 +868,12 @@
         },
         {
           "order": 6,
-          "title": "How to Read Nutrition Labels & Understand the Nutrition Facts",
-          "creator": "Registered dietitian explainer",
-          "url": "https://www.youtube.com/watch?v=6tyBYmX04dM",
-          "durationMin": 10,
+          "title": "Mayo Clinic Minute: How to read the new Nutrition Facts label",
+          "creator": "Mayo Clinic",
+          "url": "https://www.youtube.com/watch?v=nXBeE1KhUKI",
+          "durationMin": 2,
           "subtopic": "Reading labels",
-          "why": "A dietitian walks line-by-line through a real label (serving size, sodium, sugars, %DV), turning the macros knowledge into a practical decoding skill."
+          "why": "A trusted medical institution walks through the actual Nutrition Facts panel line by line — serving size, calories, sodium, added sugars, %DV — turning your macro knowledge into a fast label-reading skill."
         },
         {
           "order": 7,
@@ -1079,6 +1079,15 @@
           "durationMin": 10,
           "subtopic": "Editing masterclass",
           "why": "The definitive video essay on the instinct of when to cut, teaching you to feel rhythm and emotion in editing — a skill that transfers directly from music to film."
+        },
+        {
+          "order": 16,
+          "title": "The clues to a great story | Andrew Stanton",
+          "creator": "TED",
+          "url": "https://www.youtube.com/watch?v=KxDwieKpawg",
+          "durationMin": 19,
+          "subtopic": "Storytelling & writing",
+          "why": "Pixar's Andrew Stanton (Toy Story, WALL-E) lays out the first principles of story — make the audience care, give them a promise, let them do the work — the writing foundation under both your song lyrics and your film."
         }
       ]
     }

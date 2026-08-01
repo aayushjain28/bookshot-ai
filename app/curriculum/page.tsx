@@ -59,8 +59,8 @@ export default function CurriculumPage() {
       <section id="concepts" className="mt-14 scroll-mt-20">
         <h2 className="font-serif text-2xl">Deep-read concepts</h2>
         <p className="mt-1 text-sm text-muted">
-          Written lessons with quizzes — all open. Ones marked Coming Soon have
-          their full write-ups on the way.
+          The full arc from the Big Bang to money — eleven written lessons, each
+          with a key question, a mental model, a quiz, and a reflection.
         </p>
         <div className="mt-6 flex flex-col gap-10">
           {groups.map((group) => (
