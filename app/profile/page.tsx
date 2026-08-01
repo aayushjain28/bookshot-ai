@@ -4,6 +4,7 @@ import { CalendarPlus, GraduationCap } from "lucide-react";
 import { completeConcepts } from "@/lib/data/concepts";
 import { totalEpisodes } from "@/lib/data/tracks";
 import { goals } from "@/lib/data/goals";
+import { asset } from "@/lib/config";
 import { useProgress } from "@/lib/progress";
 import { useWatched } from "@/lib/watched";
 import { Button } from "@/components/ui/button";
@@ -57,7 +58,7 @@ export default function ProfilePage() {
           video, every day.
         </p>
         <a
-          href="/fpu-daily-9am.ics"
+          href={asset("/fpu-daily-9am.ics")}
           download
           className="mt-4 inline-flex items-center gap-2 rounded-lg border border-border px-4 py-2 text-sm font-medium transition-colors hover:bg-foreground/5"
         >

@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { CalendarPlus, CheckCircle2, ExternalLink, Play } from "lucide-react";
 import { dailySequence, getTrack, totalEpisodes } from "@/lib/data/tracks";
+import { asset } from "@/lib/config";
 import { useWatched } from "@/lib/watched";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
@@ -37,7 +38,7 @@ export default function DailyPage() {
           </p>
         </div>
         <a
-          href="/fpu-daily-9am.ics"
+          href={asset("/fpu-daily-9am.ics")}
           download
           className="inline-flex shrink-0 items-center gap-2 rounded-lg border border-border px-3 py-2 text-sm text-muted transition-colors hover:text-foreground"
         >
