@@ -54,11 +54,11 @@ export default function ProfilePage() {
       <Card className="mt-8">
         <h2 className="font-medium">Daily reminder</h2>
         <p className="mt-1 text-sm text-muted">
-          Add a recurring 9:00 AM event to your calendar — 30 minutes, one
+          Add a recurring 8:45 AM event to your calendar — 30 minutes, one
           video, every day.
         </p>
         <a
-          href={asset("/fpu-daily-9am.ics")}
+          href={asset("/fpu-daily-reminder.ics")}
           download
           className="mt-4 inline-flex items-center gap-2 rounded-lg border border-border px-4 py-2 text-sm font-medium transition-colors hover:bg-foreground/5"
         >
