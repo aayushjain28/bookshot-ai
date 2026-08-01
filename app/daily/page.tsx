@@ -34,16 +34,16 @@ export default function DailyPage() {
         <div>
           <h1 className="font-serif text-3xl">Daily</h1>
           <p className="mt-2 text-muted">
-            One video per commute. 9:00 AM, ~30 minutes.
+            One video per commute. 8:45 AM, ~30 minutes.
           </p>
         </div>
         <a
-          href={asset("/fpu-daily-9am.ics")}
+          href={asset("/fpu-daily-reminder.ics")}
           download
           className="inline-flex shrink-0 items-center gap-2 rounded-lg border border-border px-3 py-2 text-sm text-muted transition-colors hover:text-foreground"
         >
           <CalendarPlus className="h-4 w-4" />
-          9 AM reminder
+          8:45 AM reminder
         </a>
       </div>
 
