@@ -6,7 +6,9 @@ import { Sparkles } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 const links = [
-  { href: "/home", label: "Home" },
+  { href: "/daily", label: "Daily" },
+  { href: "/tracks", label: "Tracks" },
+  { href: "/goals", label: "Goals" },
   { href: "/curriculum", label: "Curriculum" },
   { href: "/progress", label: "Progress" },
   { href: "/search", label: "Search" },

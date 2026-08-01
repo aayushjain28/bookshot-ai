@@ -32,10 +32,11 @@ export default function LandingPage() {
         <h1 className="font-serif text-4xl leading-tight sm:text-5xl">
           Understand how the world works,
           <br />
-          one concept at a time.
+          one commute at a time.
         </h1>
         <p className="max-w-xl text-lg text-muted">
-          One connected story — from the Big Bang to AI. Understanding, not
+          One curated video every morning at 9:00 — money, markets, startups,
+          history, systems, machines, food, and music. Understanding, not
           memorization.
         </p>
       </motion.div>

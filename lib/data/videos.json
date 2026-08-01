@@ -1,0 +1,1095 @@
+{
+  "tracks": [
+    {
+      "slug": "money-and-economics",
+      "title": "Money & Economics",
+      "tagline": "How money was invented, why it rules the world, and how it built banks, governments, and politics.",
+      "episodes": [
+        {
+          "order": 1,
+          "title": "The History of Paper Money - Origins of Exchange - Extra History - Part 1",
+          "creator": "Extra Credits (Extra History)",
+          "url": "https://www.youtube.com/watch?v=-nZkP2b-4vo",
+          "durationMin": 8,
+          "subtopic": "History of money",
+          "why": "Starts at true first principles — how exchange, debt, and proto-money emerged before coins — and debunks the simple barter myth."
+        },
+        {
+          "order": 2,
+          "title": "The History of Paper Money - Not Just Noodles - Extra History - #2",
+          "creator": "Extra Credits (Extra History)",
+          "url": "https://www.youtube.com/watch?v=rPHTmGjoe2k",
+          "durationMin": 8,
+          "subtopic": "History of money",
+          "why": "Shows how China invented paper money and why a government's promise could replace metal, the leap that made modern money possible."
+        },
+        {
+          "order": 3,
+          "title": "What gives a dollar bill its value? - Doug Levinson",
+          "creator": "TED-Ed",
+          "url": "https://www.youtube.com/watch?v=XNu5ppFZbHo",
+          "durationMin": 4,
+          "subtopic": "Why money needs trust",
+          "why": "A short, crisp explanation of fiat money — value comes from collective trust and managed supply, not intrinsic worth — introducing the Federal Reserve's balancing act."
+        },
+        {
+          "order": 4,
+          "title": "Money and Finance: Crash Course Economics #11",
+          "creator": "CrashCourse",
+          "url": "https://www.youtube.com/watch?v=Dugn51K_6WA",
+          "durationMin": 10,
+          "subtopic": "From money to economics",
+          "why": "Defines money's three functions and bridges into finance — borrowing, lending, interest, stocks and bonds — the vocabulary of business and fundraising."
+        },
+        {
+          "order": 5,
+          "title": "How does the stock market work? - Oliver Elfenbaum",
+          "creator": "TED-Ed",
+          "url": "https://www.youtube.com/watch?v=p7HKvqRI_Bo",
+          "durationMin": 4,
+          "subtopic": "Markets and fundraising",
+          "why": "Explains equity from its origin (Dutch East India Company) — the first-principles version of why companies raise money by selling shares, directly relevant to fundraising."
+        },
+        {
+          "order": 6,
+          "title": "Banking Explained – Money and Credit",
+          "creator": "Kurzgesagt – In a Nutshell",
+          "url": "https://www.youtube.com/watch?v=fTTGALaRZoc",
+          "durationMin": 6,
+          "subtopic": "Banking and credit",
+          "why": "Compact history of why banks were invented, how credit works, and how banking failures cause crises — the core mechanic behind the rest of the track."
+        },
+        {
+          "order": 7,
+          "title": "The History of Paper Money - Lay Down the Law - Extra History - #4",
+          "creator": "Extra Credits (Extra History)",
+          "url": "https://www.youtube.com/watch?v=lzH1p3t2oRE",
+          "durationMin": 8,
+          "subtopic": "Governments and money (history)",
+          "why": "The John Law episode — a government handing the money printer to one man — is history's clearest cautionary tale of state-created money and bubbles."
+        },
+        {
+          "order": 8,
+          "title": "How The Economic Machine Works by Ray Dalio",
+          "creator": "Principles by Ray Dalio",
+          "url": "https://www.youtube.com/watch?v=PHe0bXAIuk0",
+          "durationMin": 31,
+          "subtopic": "How the economy works (anchor)",
+          "why": "The anchor: transactions, credit, short- and long-term debt cycles, and central banks in one 30-minute mental model that ties everything before and after together."
+        },
+        {
+          "order": 9,
+          "title": "Inflation and Bubbles and Tulips: Crash Course Economics #7",
+          "creator": "CrashCourse",
+          "url": "https://www.youtube.com/watch?v=T8-85cZRI9o",
+          "durationMin": 10,
+          "subtopic": "Inflation",
+          "why": "Explains what inflation is, how it's measured, and how speculative bubbles form and pop — from tulips to housing — grounding inflation in real episodes."
+        },
+        {
+          "order": 10,
+          "title": "The History of Paper Money - The Gold Standard - Extra History - Part 6",
+          "creator": "Extra Credits (Extra History)",
+          "url": "https://www.youtube.com/watch?v=GNo7MDN5-0g",
+          "durationMin": 8,
+          "subtopic": "Gold standard to fiat",
+          "why": "Closes the money-history arc: how the gold standard rose and fell, explaining why today's currencies float on government credibility alone."
+        },
+        {
+          "order": 11,
+          "title": "How the Fed Steers Interest Rates to Guide the Entire Economy | WSJ",
+          "creator": "Wall Street Journal",
+          "url": "https://www.youtube.com/watch?v=AkMsMDk_brU",
+          "durationMin": 9,
+          "subtopic": "Central banks",
+          "why": "Shows the actual modern mechanism — how a central bank moves interest rates and why that single lever steers credit, inflation, and the whole economy."
+        },
+        {
+          "order": 12,
+          "title": "The 2008 Financial Crisis: Crash Course Economics #12",
+          "creator": "CrashCourse",
+          "url": "https://www.youtube.com/watch?v=GPOv72Awo68",
+          "durationMin": 12,
+          "subtopic": "2008 financial crisis",
+          "why": "Applies everything learned — credit, banking, bubbles, central banks — to explain step by step how mortgages became a global meltdown and how governments responded."
+        },
+        {
+          "order": 13,
+          "title": "The Rules for Rulers",
+          "creator": "CGP Grey",
+          "url": "https://www.youtube.com/watch?v=rStL7niR7gs",
+          "durationMin": 18,
+          "subtopic": "Power and government fundamentals",
+          "why": "First-principles model of political power — rulers must control treasure to keep keys to power loyal — revealing why every government ultimately fights over money."
+        },
+        {
+          "order": 14,
+          "title": "Principles for Dealing with the Changing World Order by Ray Dalio",
+          "creator": "Principles by Ray Dalio",
+          "url": "https://www.youtube.com/watch?v=xguam0TKMw8",
+          "durationMin": 43,
+          "subtopic": "Money, empires, and politics (capstone)",
+          "why": "The capstone: 500 years of how money printing, debt, internal conflict, and reserve currencies drive the rise and fall of nations — connecting money to geopolitics today."
+        }
+      ]
+    },
+    {
+      "slug": "markets-and-investing",
+      "title": "Markets & Investing",
+      "tagline": "What stock markets actually are, how to think about investing, and how real estate really works.",
+      "episodes": [
+        {
+          "order": 1,
+          "title": "How does the stock market work? - Oliver Elfenbaum",
+          "creator": "TED-Ed",
+          "url": "https://www.youtube.com/watch?v=p7HKvqRI_Bo",
+          "durationMin": 4,
+          "subtopic": "Stock market basics",
+          "why": "The canonical first-principles origin story of stocks and markets via the Dutch East India Company, giving you the mental model everything else builds on."
+        },
+        {
+          "order": 2,
+          "title": "How The Stock Exchange Works (For Dummies)",
+          "creator": "Kurzgesagt – In a Nutshell",
+          "url": "https://www.youtube.com/watch?v=F3QpgXBtDeo",
+          "durationMin": 4,
+          "subtopic": "How exchanges work",
+          "why": "A clear animated walkthrough of the exchange itself — brokers, buyers, sellers, and how supply and demand meet to set prices."
+        },
+        {
+          "order": 3,
+          "title": "Stocks | How Equity Earns You Money",
+          "creator": "The Plain Bagel",
+          "url": "https://www.youtube.com/watch?v=vZCGsi5pfso",
+          "durationMin": 9,
+          "subtopic": "What determines a stock's price",
+          "why": "Explains what you actually own when you own a share and how earnings, dividends, and expectations translate into a stock's value."
+        },
+        {
+          "order": 4,
+          "title": "The Difference Between The Stock Market and The Economy",
+          "creator": "The Plain Bagel",
+          "url": "https://www.youtube.com/watch?v=eASVpBsKfug",
+          "durationMin": 10,
+          "subtopic": "Market fundamentals",
+          "why": "Breaks the common beginner conflation of market moves with economic health, sharpening how you interpret headlines and price swings."
+        },
+        {
+          "order": 5,
+          "title": "The Fundamentals | Why is Investing Important?",
+          "creator": "The Plain Bagel",
+          "url": "https://www.youtube.com/watch?v=I81xqr8HzBE",
+          "durationMin": 8,
+          "subtopic": "Investing mindset and compounding",
+          "why": "Sets up the case for investing at all — inflation, returns, and compound growth over decades — before you touch any strategy."
+        },
+        {
+          "order": 6,
+          "title": "What the Heck Is a Mutual Fund?",
+          "creator": "Two Cents (PBS)",
+          "url": "https://www.youtube.com/watch?v=jxZa90pSYzc",
+          "durationMin": 7,
+          "subtopic": "Funds and diversification",
+          "why": "A friendly primer on pooled funds and diversification, the stepping stone to understanding index funds and ETFs."
+        },
+        {
+          "order": 7,
+          "title": "Picking Stocks | Common Sense Investing",
+          "creator": "Ben Felix (Common Sense Investing)",
+          "url": "https://www.youtube.com/watch?v=AecvTErBQY8",
+          "durationMin": 8,
+          "subtopic": "Index funds vs picking stocks",
+          "why": "Evidence-based case for why beating the market by picking stocks is so hard, which is the core argument for low-cost index investing."
+        },
+        {
+          "order": 8,
+          "title": "The DCF Model Explained - How The Pros Value Stocks/Businesses",
+          "creator": "The Plain Bagel",
+          "url": "https://www.youtube.com/watch?v=J8E64j-2pvc",
+          "durationMin": 12,
+          "subtopic": "Company valuation basics",
+          "why": "Introduces discounted cash flow — the first-principles way professionals turn a company's future cash into a fair price today."
+        },
+        {
+          "order": 9,
+          "title": "What causes economic bubbles? - Prateek Singh",
+          "creator": "TED-Ed",
+          "url": "https://www.youtube.com/watch?v=I5ZR0jMlxX0",
+          "durationMin": 5,
+          "subtopic": "Bubbles and manias",
+          "why": "Uses tulip mania to show the universal anatomy of a bubble — speculation, mania, and collapse — in a few memorable minutes."
+        },
+        {
+          "order": 10,
+          "title": "The 2008 Financial Crisis: Crash Course Economics #12",
+          "creator": "CrashCourse",
+          "url": "https://www.youtube.com/watch?v=GPOv72Awo68",
+          "durationMin": 12,
+          "subtopic": "Market crashes",
+          "why": "The definitive short explainer of how a housing bubble, mortgage securitization, and leverage produced a global crash — bridging your stock and real estate tracks."
+        },
+        {
+          "order": 11,
+          "title": "Why Houses Are So Expensive In The U.S.",
+          "creator": "CNBC",
+          "url": "https://www.youtube.com/watch?v=AcVaTIW-DGQ",
+          "durationMin": 15,
+          "subtopic": "Why real estate prices rise",
+          "why": "Grounds housing prices in supply, land, labor, and materials constraints — the demand-and-supply first principles behind rising prices."
+        },
+        {
+          "order": 12,
+          "title": "Renting vs. Buying a Home: The 5% Rule",
+          "creator": "Ben Felix (Common Sense Investing)",
+          "url": "https://www.youtube.com/watch?v=Uwl3-jBNEd4",
+          "durationMin": 10,
+          "subtopic": "Rent vs buy decision",
+          "why": "A rigorous framework comparing the true unrecoverable costs of renting versus owning, replacing gut feel with a simple calculable rule."
+        },
+        {
+          "order": 13,
+          "title": "Investing in Real Estate Through REITs",
+          "creator": "The Plain Bagel",
+          "url": "https://www.youtube.com/watch?v=mPC9mtcYmqk",
+          "durationMin": 10,
+          "subtopic": "REITs",
+          "why": "Shows how to get real estate exposure through the stock market, connecting property investing back to the equity concepts from earlier videos."
+        },
+        {
+          "order": 14,
+          "title": "How to Analyze a Rental Property (From Start to Finish)",
+          "creator": "BiggerPockets",
+          "url": "https://www.youtube.com/watch?v=AiOwOMeVNnY",
+          "durationMin": 30,
+          "subtopic": "Evaluating a property and location",
+          "why": "Applied capstone: walks through the actual numbers — income, expenses, cash flow, and return — used to decide whether a specific property and location are worth investing in."
+        }
+      ]
+    },
+    {
+      "slug": "startup-finance",
+      "title": "Startup Finance",
+      "tagline": "Fundraising, valuation, equity and stock options, why VCs fund loss-makers, and how IPOs work.",
+      "episodes": [
+        {
+          "order": 1,
+          "title": "Startup Funding Explained - Incorporation and First Investor (Part 1)",
+          "creator": "Slidebean",
+          "url": "https://www.youtube.com/watch?v=Rho9S_Nn7YI",
+          "durationMin": 9,
+          "subtopic": "Equity & shares basics",
+          "why": "Ground-zero walkthrough of what shares actually are, how a company is incorporated, and what happens to ownership when the first investor's money comes in."
+        },
+        {
+          "order": 2,
+          "title": "How Startup Equity REALLY Works",
+          "creator": "Slidebean",
+          "url": "https://www.youtube.com/watch?v=4WaJD0MF4q4",
+          "durationMin": 10,
+          "subtopic": "Equity & cap tables",
+          "why": "Explains cap tables, share classes, and how founder ownership evolves round by round — the mental model everything else in this track builds on."
+        },
+        {
+          "order": 3,
+          "title": "How Much Equity to Give Your Cofounder - Michael Seibel",
+          "creator": "Y Combinator",
+          "url": "https://www.youtube.com/watch?v=9NhEBVPlJs4",
+          "durationMin": 6,
+          "subtopic": "Equity splits",
+          "why": "YC's canonical, contrarian answer to founder equity splits and why generous, near-equal splits maximize motivation over a 10-year company."
+        },
+        {
+          "order": 4,
+          "title": "Startup Valuation: How to Calculate It - Startups 101",
+          "creator": "Slidebean",
+          "url": "https://www.youtube.com/watch?v=BXUIaOMVIqc",
+          "durationMin": 10,
+          "subtopic": "Valuation",
+          "why": "Demystifies how early-stage valuations are actually set — comparables, negotiation, and investor math rather than profit multiples."
+        },
+        {
+          "order": 5,
+          "title": "How to Value your Startup (and keep your Equity)",
+          "creator": "Slidebean",
+          "url": "https://www.youtube.com/watch?v=IuwUa8N2k9U",
+          "durationMin": 12,
+          "subtopic": "Valuation & dilution",
+          "why": "Connects the valuation you accept to the exact percentage of the company you give up, making dilution a concrete calculation instead of an abstraction."
+        },
+        {
+          "order": 6,
+          "title": "How WeWork Went From $47B Startup to Bankrupt Penny Stock | WSJ What Went Wrong",
+          "creator": "Wall Street Journal",
+          "url": "https://www.youtube.com/watch?v=p3q5m0ILTfk",
+          "durationMin": 13,
+          "subtopic": "What valuation really means",
+          "why": "The definitive case study on why a private 'paper' valuation is not cash, profit, or reality — directly answering 'my company is worth $1B, what does that even mean?'"
+        },
+        {
+          "order": 7,
+          "title": "How Startup Fundraising Works | Startup School",
+          "creator": "Y Combinator",
+          "url": "https://www.youtube.com/watch?v=zBUhQPPS9AY",
+          "durationMin": 28,
+          "subtopic": "Fundraising rounds",
+          "why": "YC partner Brad Flora's end-to-end map of modern fundraising — pre-seed through later rounds, investor incentives, and the myths founders believe."
+        },
+        {
+          "order": 8,
+          "title": "Understanding SAFEs and Priced Equity Rounds by Kirsty Nathoo",
+          "creator": "Y Combinator",
+          "url": "https://www.youtube.com/watch?v=Dk6JNTDec9I",
+          "durationMin": 30,
+          "subtopic": "SAFEs & priced rounds",
+          "why": "The YC CFO who helped design the SAFE walks through SAFEs vs priced rounds with real cap-table math showing exactly how each choice dilutes you."
+        },
+        {
+          "order": 9,
+          "title": "What are stock options, and how do they work?",
+          "creator": "Carta",
+          "url": "https://www.youtube.com/watch?v=55QjwlsQS6g",
+          "durationMin": null,
+          "subtopic": "Employee stock options",
+          "why": "Carta's clean explainer on option pools, strike prices, and vesting — what you need before granting options to your first employees."
+        },
+        {
+          "order": 10,
+          "title": "The Economics of Term Sheets",
+          "creator": "a16z",
+          "url": "https://www.youtube.com/watch?v=fH3GuqXagXM",
+          "durationMin": 22,
+          "subtopic": "Term sheets",
+          "why": "a16z managing partner Scott Kupor decodes pre-money valuation, liquidation preferences, and anti-dilution clauses — the economic fine print that decides who gets paid at exit."
+        },
+        {
+          "order": 11,
+          "title": "Fundraising Fundamentals By Geoff Ralston",
+          "creator": "Y Combinator",
+          "url": "https://www.youtube.com/watch?v=gcevHkNGrWQ",
+          "durationMin": 27,
+          "subtopic": "Founder fundraising tactics",
+          "why": "A founder-perspective talk from YC's president on running an actual raise — crafting the story, sequencing investors, timing, and surviving the no's."
+        },
+        {
+          "order": 12,
+          "title": "How VC works | Introduction to Venture Capital 101",
+          "creator": "Harvard Innovation Labs",
+          "url": "https://www.youtube.com/watch?v=zMPuTzcf7-U",
+          "durationMin": null,
+          "subtopic": "VC fund economics",
+          "why": "Straight from Harvard Innovation Labs: how a VC fund is structured — LPs, management fees, carry, and the power law — so you understand why funds bankroll loss-making companies for years chasing one outlier that returns the whole fund."
+        },
+        {
+          "order": 13,
+          "title": "The Secret That Silicon Valley's Top Investors All Share",
+          "creator": "Y Combinator",
+          "url": "https://www.youtube.com/watch?v=bgp5QZwuNQI",
+          "durationMin": 12,
+          "subtopic": "How VCs get returns",
+          "why": "Dalton Caldwell and Michael Seibel use real data on a16z, Sequoia, and Founders Fund to show that a handful of outlier winners drive essentially all top-tier VC returns."
+        },
+        {
+          "order": 14,
+          "title": "Anatomy of an IPO Valuation | WSJ",
+          "creator": "Wall Street Journal",
+          "url": "https://www.youtube.com/watch?v=n1ES391JdW8",
+          "durationMin": 7,
+          "subtopic": "IPO & exits",
+          "why": "Explains how going public actually reprices a startup and why sky-high private valuations often shrink at IPO — the moment paper equity finally becomes real money."
+        }
+      ]
+    },
+    {
+      "slug": "history-and-wars",
+      "title": "History & Wars",
+      "tagline": "How civilizations formed, why wars happen, and the wars that shaped the modern world order.",
+      "episodes": [
+        {
+          "order": 1,
+          "title": "The Beginning of Everything -- The Big Bang",
+          "creator": "Kurzgesagt – In a Nutshell",
+          "url": "https://www.youtube.com/watch?v=wNDGgL73ihY",
+          "durationMin": 6,
+          "subtopic": "Cosmic origins",
+          "why": "A quick 6-minute primer on how everything started, giving just enough deep-history context without going deep on cosmology."
+        },
+        {
+          "order": 2,
+          "title": "history of the entire world, i guess",
+          "creator": "bill wurtz",
+          "url": "https://www.youtube.com/watch?v=xuCn8ux2gbs",
+          "durationMin": 20,
+          "subtopic": "Whole-history overview",
+          "why": "The famous ~20-minute sprint from the big bang to today that installs a mental scaffold every later video hangs on."
+        },
+        {
+          "order": 3,
+          "title": "What Happened Before History? Human Origins",
+          "creator": "Kurzgesagt – In a Nutshell",
+          "url": "https://www.youtube.com/watch?v=dGiQaabX3_o",
+          "durationMin": 10,
+          "subtopic": "Prehistory / human origins",
+          "why": "Explains the 200,000 years of humanity before writing, so the leap to farming and cities makes sense."
+        },
+        {
+          "order": 4,
+          "title": "The Agricultural Revolution: Crash Course World History #1",
+          "creator": "CrashCourse",
+          "url": "https://www.youtube.com/watch?v=Yocja_N5s1I",
+          "durationMin": 11,
+          "subtopic": "Agricultural revolution",
+          "why": "John Green shows how giving up hunting-gathering for farming created surplus, hierarchy, and everything civilization is built on."
+        },
+        {
+          "order": 5,
+          "title": "Mesopotamia: Crash Course World History #3",
+          "creator": "CrashCourse",
+          "url": "https://www.youtube.com/watch?v=sohXPx_XZ6Y",
+          "durationMin": 12,
+          "subtopic": "First civilizations",
+          "why": "The Fertile Crescent story — first cities, kings, law codes, and the birth of territorial kingdoms and empires."
+        },
+        {
+          "order": 6,
+          "title": "The Persians & Greeks: Crash Course World History #5",
+          "creator": "CrashCourse",
+          "url": "https://www.youtube.com/watch?v=Q-mkVSasZIM",
+          "durationMin": 11,
+          "subtopic": "Rise of empires",
+          "why": "Contrasts the first true superpower empire (Persia) with the Greek city-states, framing the empire-vs-freedom tension that recurs all through history."
+        },
+        {
+          "order": 7,
+          "title": "The Roman Empire. Or Republic. Or...Which Was It?: Crash Course World History #10",
+          "creator": "CrashCourse",
+          "url": "https://www.youtube.com/watch?v=oPf27gAup9U",
+          "durationMin": 12,
+          "subtopic": "Rise of empires",
+          "why": "Rome's slide from republic to empire is the template for how power centralizes — essential background for every later state and war."
+        },
+        {
+          "order": 8,
+          "title": "Wait For It...The Mongols!: Crash Course World History #17",
+          "creator": "CrashCourse",
+          "url": "https://www.youtube.com/watch?v=szxPar0BcMo",
+          "durationMin": 11,
+          "subtopic": "Empires and conquest",
+          "why": "The largest land empire ever shows how conquest connected the world — trade, plague, and ideas — long before globalization."
+        },
+        {
+          "order": 9,
+          "title": "The Rules for Rulers",
+          "creator": "CGP Grey",
+          "url": "https://www.youtube.com/watch?v=rStL7niR7gs",
+          "durationMin": 18,
+          "subtopic": "Why wars happen / rules of power",
+          "why": "Game-theory logic of why rulers (dictators and democrats alike) act as they do — the single best key for decoding every war and empire in this track."
+        },
+        {
+          "order": 10,
+          "title": "Is War Over? — A Paradox Explained",
+          "creator": "Kurzgesagt – In a Nutshell",
+          "url": "https://www.youtube.com/watch?v=NbuUW9i-mHs",
+          "durationMin": 6,
+          "subtopic": "Why wars happen",
+          "why": "Zooms out on why nations fight and why interstate war has declined, setting up the modern wars that follow."
+        },
+        {
+          "order": 11,
+          "title": "Imperialism: Crash Course World History #35",
+          "creator": "CrashCourse",
+          "url": "https://www.youtube.com/watch?v=alJaltUmrGo",
+          "durationMin": 14,
+          "subtopic": "Colonial empires",
+          "why": "How industrial-era Europe carved up Africa and Asia — the rivalry engine that loads the gun for WWI."
+        },
+        {
+          "order": 12,
+          "title": "Archdukes, Cynicism, and World War I: Crash Course World History #36",
+          "creator": "CrashCourse",
+          "url": "https://www.youtube.com/watch?v=_XPZQ0LAlR4",
+          "durationMin": 11,
+          "subtopic": "WWI causes",
+          "why": "The analytical take on how one assassination plus alliances and nationalism cascaded into total war."
+        },
+        {
+          "order": 13,
+          "title": "WW1 - Oversimplified (Part 1)",
+          "creator": "OverSimplified",
+          "url": "https://www.youtube.com/watch?v=dHSQAEam2yc",
+          "durationMin": 7,
+          "subtopic": "WWI",
+          "why": "The narrative version of WWI's outbreak and early fighting — fast, funny, and sticky enough to remember for good."
+        },
+        {
+          "order": 14,
+          "title": "WW2 - OverSimplified (Part 1)",
+          "creator": "OverSimplified",
+          "url": "https://www.youtube.com/watch?v=_uk_6vfqwTA",
+          "durationMin": 14,
+          "subtopic": "WWII",
+          "why": "Covers the rise of fascism and the road into WWII, connecting the failed WWI peace directly to the next catastrophe."
+        },
+        {
+          "order": 15,
+          "title": "The Cold War - OverSimplified (Part 1)",
+          "creator": "OverSimplified",
+          "url": "https://www.youtube.com/watch?v=I79TpDe3t2g",
+          "durationMin": 25,
+          "subtopic": "Cold War",
+          "why": "From the WWII alliance's collapse to the Berlin Wall — the superpower standoff that structured the second half of the 20th century."
+        },
+        {
+          "order": 16,
+          "title": "How America became a superpower",
+          "creator": "Vox",
+          "url": "https://www.youtube.com/watch?v=BShvYeyMm_Y",
+          "durationMin": 8,
+          "subtopic": "Modern world order",
+          "why": "Traces how the US built 800 bases and a global order after WWII, explaining the world map of power the learner lives in today."
+        }
+      ]
+    },
+    {
+      "slug": "code-and-systems",
+      "title": "Code & Systems",
+      "tagline": "From how computers run code to APIs, databases, real company architectures, and how AI works.",
+      "episodes": [
+        {
+          "order": 1,
+          "title": "The Central Processing Unit (CPU): Crash Course Computer Science #7",
+          "creator": "CrashCourse",
+          "url": "https://www.youtube.com/watch?v=FZGugFqdr60",
+          "durationMin": 11,
+          "subtopic": "How computers work",
+          "why": "The canonical short explainer of how a CPU actually fetches, decodes, and executes instructions — the physical heart of every device you'll ever build on."
+        },
+        {
+          "order": 2,
+          "title": "How do computers read code?",
+          "creator": "Frame of Essence",
+          "url": "https://www.youtube.com/watch?v=QXjU9qTsYCc",
+          "durationMin": 12,
+          "subtopic": "How computers work",
+          "why": "Bridges the gap between human-written source code and machine language, demystifying what compilers do and what code 'is' at the binary level."
+        },
+        {
+          "order": 3,
+          "title": "Exploring How Computers Work",
+          "creator": "Sebastian Lague",
+          "url": "https://www.youtube.com/watch?v=QZwneRb-zqA",
+          "durationMin": 55,
+          "subtopic": "How computers work",
+          "why": "A beautifully visual build-up from logic gates and binary to a working ALU — longer than a commute, worth splitting over two days; it makes hardware feel tangible, which matters for a founder building a hardware product."
+        },
+        {
+          "order": 4,
+          "title": "What happens when you type a URL into your browser?",
+          "creator": "ByteByteGo",
+          "url": "https://www.youtube.com/watch?v=AlkDbnbv7dk",
+          "durationMin": 5,
+          "subtopic": "How the internet works",
+          "why": "The classic interview question answered with clean diagrams — DNS, TCP, and caching layers — giving you the end-to-end mental model of the internet in minutes."
+        },
+        {
+          "order": 5,
+          "title": "What Is an API? Types, Uses, & AI Integration",
+          "creator": "IBM Technology",
+          "url": "https://www.youtube.com/watch?v=Qw8qVSZEWBc",
+          "durationMin": 9,
+          "subtopic": "Backend & APIs",
+          "why": "A clear, current explanation of what APIs are and the types you'll encounter — the vocabulary you need before every backend and AI-integration conversation."
+        },
+        {
+          "order": 6,
+          "title": "What is an API Gateway?",
+          "creator": "IBM Technology",
+          "url": "https://www.youtube.com/watch?v=hWRRdICvMNs",
+          "durationMin": 10,
+          "subtopic": "Backend & APIs",
+          "why": "Shows how real products expose their APIs in production — routing, auth, and rate limiting — the piece that connects 'what an API is' to how companies actually ship them."
+        },
+        {
+          "order": 7,
+          "title": "7 Database Paradigms",
+          "creator": "Fireship",
+          "url": "https://www.youtube.com/watch?v=W2Z7fbCLSTw",
+          "durationMin": 10,
+          "subtopic": "Databases",
+          "why": "A punchy tour of key-value, document, relational, graph, and search databases with real product use cases — the fastest way to understand why different databases exist."
+        },
+        {
+          "order": 8,
+          "title": "SQL vs. NoSQL: What's the difference?",
+          "creator": "IBM Technology",
+          "url": "https://www.youtube.com/watch?v=Q5aTUc7c4jg",
+          "durationMin": 8,
+          "subtopic": "Databases",
+          "why": "A lightboard breakdown of the five key SQL-vs-NoSQL differences, so you can reason about the tradeoff you'll face in every product decision involving data."
+        },
+        {
+          "order": 9,
+          "title": "what is a database index?",
+          "creator": "Hussein Nasser",
+          "url": "https://www.youtube.com/watch?v=Jemuod4wKWo",
+          "durationMin": 12,
+          "subtopic": "Databases",
+          "why": "From a dedicated backend-engineering channel, explains why indexes make queries fast (and writes slower) — the single most useful database performance concept."
+        },
+        {
+          "order": 10,
+          "title": "20 System Design Concepts Explained in 10 Minutes",
+          "creator": "NeetCode",
+          "url": "https://www.youtube.com/watch?v=i53Gi_K3o7I",
+          "durationMin": 10,
+          "subtopic": "System design fundamentals",
+          "why": "Load balancers, caching, sharding, message queues, and microservices in one rapid-fire pass — the shared vocabulary for every architecture case study that follows."
+        },
+        {
+          "order": 11,
+          "title": "System Design: Uber",
+          "creator": "Interview Pen",
+          "url": "https://www.youtube.com/watch?v=ZRAE0fUvN_M",
+          "durationMin": 25,
+          "subtopic": "Real-world architecture",
+          "why": "A high-level design of Uber's backend by a senior engineer — how location updates, matching, and maps come together, i.e. how the fundamentals compose into a real product."
+        },
+        {
+          "order": 12,
+          "title": "How Does Apple/Google Pay Work?",
+          "creator": "ByteByteGo",
+          "url": "https://www.youtube.com/watch?v=cHv8LqkbPHk",
+          "durationMin": 6,
+          "subtopic": "Real-world architecture (payments)",
+          "why": "A payments-system case study showing tokenization and the authorization/settlement flow behind every tap-to-pay — how money actually moves through Visa-style networks."
+        },
+        {
+          "order": 13,
+          "title": "But what is a neural network? | Deep learning chapter 1",
+          "creator": "3Blue1Brown",
+          "url": "https://www.youtube.com/watch?v=aircAruvnKk",
+          "durationMin": 19,
+          "subtopic": "AI & neural networks",
+          "why": "The best visual introduction to neurons, layers, and weights ever made — the foundation for understanding every AI model, including the speech models in your meeting-room product."
+        },
+        {
+          "order": 14,
+          "title": "Gradient descent, how neural networks learn | Deep learning, chapter 2",
+          "creator": "3Blue1Brown",
+          "url": "https://www.youtube.com/watch?v=IHZwWFHWa-w",
+          "durationMin": 21,
+          "subtopic": "AI & neural networks",
+          "why": "Shows how training actually works — cost functions and gradient descent — so 'the model learns' stops being magic and becomes something you can reason about."
+        },
+        {
+          "order": 15,
+          "title": "Large Language Models explained briefly",
+          "creator": "3Blue1Brown",
+          "url": "https://www.youtube.com/watch?v=LPZh9BOjkQs",
+          "durationMin": 8,
+          "subtopic": "AI & LLMs",
+          "why": "A crisp visual explanation of how LLMs and transformers predict text and why scale matters — exactly the mental model you need to design AI-powered meeting notes."
+        }
+      ]
+    },
+    {
+      "slug": "machines-and-manufacturing",
+      "title": "Machines & Manufacturing",
+      "tagline": "Raw material to finished product: factories, assembly lines, flights, ships, and automatic machines.",
+      "episodes": [
+        {
+          "order": 1,
+          "title": "How Does the Power Grid Work?",
+          "creator": "Practical Engineering",
+          "url": "https://www.youtube.com/watch?v=v1BMWczn7JM",
+          "durationMin": 11,
+          "subtopic": "Electricity & the grid",
+          "why": "Grady Hillhouse's foundational explainer of how electricity is generated, transmitted, and balanced in real time — the invisible system that powers every factory and machine later in this track."
+        },
+        {
+          "order": 2,
+          "title": "How Electricity Generation Really Works",
+          "creator": "Practical Engineering",
+          "url": "https://www.youtube.com/watch?v=AHFZVn38dTM",
+          "durationMin": 14,
+          "subtopic": "Electricity & the grid",
+          "why": "Goes one level deeper into the engineering of large-scale power plants, so you understand where the energy that drives assembly lines actually comes from."
+        },
+        {
+          "order": 3,
+          "title": "How does an Electric Motor work? (DC Motor)",
+          "creator": "Jared Owen",
+          "url": "https://www.youtube.com/watch?v=CWulQ1ZSE3c",
+          "durationMin": 10,
+          "subtopic": "Simple machines & mechanisms",
+          "why": "Crystal-clear 3D animation of the electric motor — the single component that converts grid electricity into the motion inside almost every automatic machine you'll meet later."
+        },
+        {
+          "order": 4,
+          "title": "The Ingenious Design of the Aluminum Beverage Can",
+          "creator": "engineerguy (Bill Hammack)",
+          "url": "https://www.youtube.com/watch?v=hUhisi2FBuw",
+          "durationMin": 12,
+          "subtopic": "Product design & manufacturing",
+          "why": "The canonical 'decode an everyday object' video: why the can is shaped the way it is and the exact manufacturing steps from aluminum sheet to finished can — a masterclass in reading design intent."
+        },
+        {
+          "order": 5,
+          "title": "The Surprising Genius of Sewing Machines",
+          "creator": "Veritasium",
+          "url": "https://www.youtube.com/watch?v=RQYuyHNLPTQ",
+          "durationMin": 32,
+          "subtopic": "Decoding automatic machines",
+          "why": "A full mechanical decode of an automatic machine — how cams, hooks, and timing solve a problem no human hand motion can — exactly the mental toolkit for decoding looms, vending, and rolling machines."
+        },
+        {
+          "order": 6,
+          "title": "Huge Car Factory - Ford | Mega Factories | Free Documentary",
+          "creator": "Free Documentary",
+          "url": "https://www.youtube.com/watch?v=GvWCsk-cmUU",
+          "durationMin": 50,
+          "subtopic": "Factories & assembly lines",
+          "why": "A start-to-finish tour of a modern car plant showing how an assembly line is organized, how parts and materials flow to stations, and how humans and machines split the work."
+        },
+        {
+          "order": 7,
+          "title": "The process of mass-producing sofas at a very fast pace. A Korean wood furniture factory.",
+          "creator": "Process X",
+          "url": "https://www.youtube.com/watch?v=dxzi8bTh3ZY",
+          "durationMin": 25,
+          "subtopic": "Product lifecycle: furniture",
+          "why": "A raw-material-to-sold-product furniture story — lumber and fabric becoming finished seating on a real factory floor, the chair-style lifecycle case study you asked for."
+        },
+        {
+          "order": 8,
+          "title": "Peanut Butter | How It's Made",
+          "creator": "How It's Made",
+          "url": "https://www.youtube.com/watch?v=4iUduCtx7cA",
+          "durationMin": 5,
+          "subtopic": "Product lifecycle: food",
+          "why": "The classic How It's Made treatment of a food product, tracing peanuts from raw ingredient through roasting, grinding, and packaging to the jar on the shelf."
+        },
+        {
+          "order": 9,
+          "title": "Jet Engine, How it works ?",
+          "creator": "Learn Engineering",
+          "url": "https://www.youtube.com/watch?v=KjiUUJdPGX0",
+          "durationMin": 9,
+          "subtopic": "Big machines: airplanes",
+          "why": "The best animated walkthrough of intake-compress-burn-exhaust, giving you the core physics of the machine that makes modern flight possible."
+        },
+        {
+          "order": 10,
+          "title": "The Insane Engineering of the 787",
+          "creator": "Real Engineering",
+          "url": "https://www.youtube.com/watch?v=lapFQl6RezA",
+          "durationMin": 16,
+          "subtopic": "Big machines: airplanes",
+          "why": "Connects flight physics to manufacturing reality — composites, electrical systems, and the global supply chain decisions behind building an entire airliner."
+        },
+        {
+          "order": 11,
+          "title": "How Ocean Shipping Works (And Why It's Broken)",
+          "creator": "Wendover Productions",
+          "url": "https://www.youtube.com/watch?v=8d5d_HXGeMA",
+          "durationMin": 13,
+          "subtopic": "Big machines: ships & logistics",
+          "why": "Follows a real Maersk container ship from Asia to Los Angeles, revealing how container ships and ports move the raw materials and products in every other video on this list."
+        },
+        {
+          "order": 12,
+          "title": "Excavator Factory | Mega Manufacturing | Free Documentary",
+          "creator": "Free Documentary",
+          "url": "https://www.youtube.com/watch?v=SuJGXTFDqj8",
+          "durationMin": 50,
+          "subtopic": "Big machines & automated factories",
+          "why": "Watch one of the world's most advanced factories build a giant machine — a bridge between 'how big machines work' and 'how automated production is engineered'."
+        },
+        {
+          "order": 13,
+          "title": "Meet The New Amazon Robot That Can Feel What It Touches",
+          "creator": "CNBC",
+          "url": "https://www.youtube.com/watch?v=2X4CU3jmw-g",
+          "durationMin": 12,
+          "subtopic": "Automation & robotics",
+          "why": "An inside look at Amazon's Vulcan warehouse robot showing how modern industrial automation combines motors, sensors, and software — the end state of everything the track built toward."
+        }
+      ]
+    },
+    {
+      "slug": "food-and-fitness",
+      "title": "Food & Fitness",
+      "tagline": "Decode the math of food — calories, macros, labels — what is good for the body, and why.",
+      "episodes": [
+        {
+          "order": 1,
+          "title": "What is a calorie? - Emma Bryce",
+          "creator": "TED-Ed",
+          "url": "https://www.youtube.com/watch?v=VEQaH4LruUo",
+          "durationMin": 4,
+          "subtopic": "Calories",
+          "why": "The cleanest possible starting point: defines what a calorie actually is (a unit of energy) and how many you really need, so every later number on a label has meaning."
+        },
+        {
+          "order": 2,
+          "title": "When You Burn Fat, Where Does it Go? | The Science of Weight Loss",
+          "creator": "AsapSCIENCE",
+          "url": "https://www.youtube.com/watch?v=C8ialLlcdcw",
+          "durationMin": 4,
+          "subtopic": "Energy balance",
+          "why": "Demystifies calories in vs calories out by tracing where fat physically goes when you lose it, making energy balance concrete rather than abstract."
+        },
+        {
+          "order": 3,
+          "title": "How do carbohydrates impact your health? - Richard J. Wood",
+          "creator": "TED-Ed",
+          "url": "https://www.youtube.com/watch?v=wxzc_2c6GMg",
+          "durationMin": 5,
+          "subtopic": "Macros: carbs",
+          "why": "Explains what carbs are, the glycemic index, and how they drive blood sugar and insulin, decoding the 'X carbs' number peers keep quoting."
+        },
+        {
+          "order": 4,
+          "title": "What is fat? - George Zaidan",
+          "creator": "TED-Ed",
+          "url": "https://www.youtube.com/watch?v=QhUrc4BnPgg",
+          "durationMin": 4,
+          "subtopic": "Macros: fat",
+          "why": "Breaks fat down into triglycerides and shows why the type of fat matters more than the amount, replacing the 'fat is bad' myth with real understanding."
+        },
+        {
+          "order": 5,
+          "title": "From Mouth to Muscle: How Your Body Absorbs Protein",
+          "creator": "Institute of Human Anatomy",
+          "url": "https://www.youtube.com/watch?v=_FJSotplMMQ",
+          "durationMin": 15,
+          "subtopic": "Macros: protein",
+          "why": "Follows protein through digestion into muscle using real anatomy, completing the macro trio and setting up the later muscle-growth videos."
+        },
+        {
+          "order": 6,
+          "title": "Mayo Clinic Minute: How to read the new Nutrition Facts label",
+          "creator": "Mayo Clinic",
+          "url": "https://www.youtube.com/watch?v=nXBeE1KhUKI",
+          "durationMin": 2,
+          "subtopic": "Reading labels",
+          "why": "A trusted medical institution walks through the actual Nutrition Facts panel line by line — serving size, calories, sodium, added sugars, %DV — turning your macro knowledge into a fast label-reading skill."
+        },
+        {
+          "order": 7,
+          "title": "How sugar affects the brain - Nicole Avena",
+          "creator": "TED-Ed",
+          "url": "https://www.youtube.com/watch?v=w3RG5KQQNA8",
+          "durationMin": 5,
+          "subtopic": "Sugar: good/bad & why",
+          "why": "Explains the dopamine reward loop behind sugar cravings and tolerance, answering not just that added sugar is a problem but exactly why."
+        },
+        {
+          "order": 8,
+          "title": "How to eat fewer ultra-processed foods | with Chris van Tulleken",
+          "creator": "Chris van Tulleken",
+          "url": "https://www.youtube.com/watch?v=wCs6hyHz-eg",
+          "durationMin": 3,
+          "subtopic": "Ultra-processed food",
+          "why": "A credible science-doctor gives a fast, practical framework for spotting ultra-processed food on ingredient lists and why it drives overeating."
+        },
+        {
+          "order": 9,
+          "title": "How the food you eat affects your gut - Shilpa Ravella",
+          "creator": "TED-Ed",
+          "url": "https://www.youtube.com/watch?v=1sISguPDlhY",
+          "durationMin": 5,
+          "subtopic": "Food quality & why",
+          "why": "Connects whole vs processed food to the gut microbiome, giving a mechanism for why 'good' foods are good beyond just calories and macros."
+        },
+        {
+          "order": 10,
+          "title": "The Smartest Way To Use Protein To Build Muscle (Science Explained)",
+          "creator": "Jeff Nippard",
+          "url": "https://www.youtube.com/watch?v=Pok0Jg2JAkE",
+          "durationMin": 12,
+          "subtopic": "Protein for muscle",
+          "why": "Science-based, evidence-heavy breakdown of how much protein (~1.6 g/kg) and timing you actually need, bridging nutrition into training."
+        },
+        {
+          "order": 11,
+          "title": "How Muscles Get Bigger",
+          "creator": "Institute of Human Anatomy",
+          "url": "https://www.youtube.com/watch?v=WOOqnPe6D1g",
+          "durationMin": 14,
+          "subtopic": "How muscle grows",
+          "why": "Shows the real physiology of hypertrophy, mechanical tension, and repair, so 'lifting builds muscle' becomes an understood mechanism."
+        },
+        {
+          "order": 12,
+          "title": "The Worst Cardio Mistakes Everyone Makes For Fat Loss (Avoid These)",
+          "creator": "Jeff Nippard",
+          "url": "https://www.youtube.com/watch?v=crPb62o-z_E",
+          "durationMin": 12,
+          "subtopic": "Cardio vs strength",
+          "why": "Clarifies what cardio does and doesn't do for fat loss and how to balance it with lifting, resolving the cardio-vs-weights confusion with data."
+        },
+        {
+          "order": 13,
+          "title": "What would happen if you didn't sleep? - Claudia Aguirre",
+          "creator": "TED-Ed",
+          "url": "https://www.youtube.com/watch?v=dqONk48l5vY",
+          "durationMin": 5,
+          "subtopic": "Sleep & recovery",
+          "why": "Explains why sleep is the third pillar of fitness, covering recovery, hormones, and how deprivation links to weight gain and poor performance."
+        }
+      ]
+    },
+    {
+      "slug": "music-film-and-creativity",
+      "title": "Music, Film & Creativity",
+      "tagline": "First principles of music and songwriting, how great films are made, and why hobbies grip us.",
+      "episodes": [
+        {
+          "order": 1,
+          "title": "The first 20 hours -- how to learn anything | Josh Kaufman | TEDxCSU",
+          "creator": "TEDx Talks",
+          "url": "https://www.youtube.com/watch?v=5MgBikgcWnY",
+          "durationMin": 19,
+          "subtopic": "Hobbies & learning psychology",
+          "why": "Kaufman dismantles the 10,000-hour myth and shows (by learning ukulele on stage) how anyone can pick up a deep hobby fast, which is the perfect on-ramp for identifying and starting your own."
+        },
+        {
+          "order": 2,
+          "title": "The 4 things it takes to be an expert",
+          "creator": "Veritasium",
+          "url": "https://www.youtube.com/watch?v=5eW6Eagr9XA",
+          "durationMin": 18,
+          "subtopic": "Mastery psychology",
+          "why": "Explains the research on deliberate practice, feedback, and valid environments that separates true experts from experienced amateurs, framing everything you'll practice in music, film, and writing."
+        },
+        {
+          "order": 3,
+          "title": "The physics of playing guitar - Oscar Fernando Perez",
+          "creator": "TED-Ed",
+          "url": "https://www.youtube.com/watch?v=w6EGyFAGpXU",
+          "durationMin": 5,
+          "subtopic": "Physics of sound",
+          "why": "Uses your own instrument to explain standing waves, string tension, frequency, and overtones, so you understand physically what happens every time you pluck a string."
+        },
+        {
+          "order": 4,
+          "title": "The most mind-blowing concept in music (Harmonic Series)",
+          "creator": "Andrew Huang",
+          "url": "https://www.youtube.com/watch?v=Wx_kugSemfY",
+          "durationMin": 13,
+          "subtopic": "Harmony",
+          "why": "The harmonic series is the physics behind why octaves, fifths, and chords sound consonant, and Huang derives scales and harmony from it, answering 'why do chords sound good' from first principles."
+        },
+        {
+          "order": 5,
+          "title": "A different way to visualize rhythm - John Varney",
+          "creator": "TED-Ed",
+          "url": "https://www.youtube.com/watch?v=2UphAzryVpY",
+          "durationMin": 5,
+          "subtopic": "Rhythm",
+          "why": "Introduces the circular 'wheel' model of rhythm and tours beat patterns from around the world, giving you a mental model of how rhythm actually works beyond counting 4/4."
+        },
+        {
+          "order": 6,
+          "title": "The secret rhythm behind Radiohead's \"Videotape\"",
+          "creator": "Vox",
+          "url": "https://www.youtube.com/watch?v=p_IHotHxIl8",
+          "durationMin": 6,
+          "subtopic": "Rhythm & syncopation",
+          "why": "A concrete case study of syncopation and displaced beats in a real song, showing how subtle rhythmic choices create emotional effect you can steal for your own writing."
+        },
+        {
+          "order": 7,
+          "title": "4 classic chord progressions and why they work",
+          "creator": "David Bennett Piano",
+          "url": "https://www.youtube.com/watch?v=9zbP0GQzUuI",
+          "durationMin": 14,
+          "subtopic": "Chord progressions",
+          "why": "Breaks down the workhorse progressions of pop music and the tension-resolution logic behind them, giving you ready-to-use harmonic vocabulary for your first song."
+        },
+        {
+          "order": 8,
+          "title": "4 Chords | Music Videos | The Axis Of Awesome",
+          "creator": "The Axis of Awesome",
+          "url": "https://www.youtube.com/watch?v=oOlDewpCfZQ",
+          "durationMin": 6,
+          "subtopic": "Four-chord phenomenon",
+          "why": "The famous demonstration that dozens of hit songs share the same I-V-vi-IV progression, which is both hilarious and deeply liberating when you realize how little harmony you need to write a hit."
+        },
+        {
+          "order": 9,
+          "title": "Every type of Song Structure EXPLAINED",
+          "creator": "David Bennett Piano",
+          "url": "https://www.youtube.com/watch?v=SDJwg1JoPtY",
+          "durationMin": 16,
+          "subtopic": "Song structure",
+          "why": "Maps verse, chorus, pre-chorus, bridge, and middle 8 across real songs so you know the architectural templates before you start assembling your own composition."
+        },
+        {
+          "order": 10,
+          "title": "Here's how to start writing a song",
+          "creator": "Andrew Huang",
+          "url": "https://www.youtube.com/watch?v=CS23HISLqzw",
+          "durationMin": 10,
+          "subtopic": "Songwriting",
+          "why": "A practical, blank-page-to-first-draft walkthrough of starting a song, turning the theory from the previous videos into an actual creative workflow."
+        },
+        {
+          "order": 11,
+          "title": "5 Easy But Powerful Songwriting Tricks!",
+          "creator": "Andrew Huang",
+          "url": "https://www.youtube.com/watch?v=INSsNLBAwUw",
+          "durationMin": 8,
+          "subtopic": "Songwriting craft",
+          "why": "Five concrete techniques for making melodies and sections more interesting, ideal to apply directly while composing your first song."
+        },
+        {
+          "order": 12,
+          "title": "The most feared song in jazz, explained",
+          "creator": "Vox",
+          "url": "https://www.youtube.com/watch?v=62tIvfP9A2w",
+          "durationMin": 10,
+          "subtopic": "What makes great musicians",
+          "why": "Through Coltrane's 'Giant Steps' it shows what elite harmonic mastery and relentless practice actually look like, connecting the mastery psychology videos to real musicianship."
+        },
+        {
+          "order": 13,
+          "title": "The Pre-Production Process in Film Explained [Stages of Filmmaking, Ep 2]",
+          "creator": "StudioBinder",
+          "url": "https://www.youtube.com/watch?v=U6I1tMgjW-I",
+          "durationMin": 15,
+          "subtopic": "Filmmaking process",
+          "why": "Covers scripts, storyboards, shot lists, and planning — the invisible ingredient list of a film, and exactly the stage where an AI-powered short film lives or dies."
+        },
+        {
+          "order": 14,
+          "title": "Film Production Explained — Each Step of the Production Process [Stages of Filmmaking, Ep 3]",
+          "creator": "StudioBinder",
+          "url": "https://www.youtube.com/watch?v=puF9CkvmJt0",
+          "durationMin": 15,
+          "subtopic": "Filmmaking process",
+          "why": "Walks through how footage actually gets captured on set — roles, coverage, and workflow — completing the end-to-end picture of how a movie is made."
+        },
+        {
+          "order": 15,
+          "title": "How Does an Editor Think and Feel?",
+          "creator": "Every Frame a Painting",
+          "url": "https://www.youtube.com/watch?v=3Q3eITC01Fg",
+          "durationMin": 10,
+          "subtopic": "Editing masterclass",
+          "why": "The definitive video essay on the instinct of when to cut, teaching you to feel rhythm and emotion in editing — a skill that transfers directly from music to film."
+        },
+        {
+          "order": 16,
+          "title": "The clues to a great story | Andrew Stanton",
+          "creator": "TED",
+          "url": "https://www.youtube.com/watch?v=KxDwieKpawg",
+          "durationMin": 19,
+          "subtopic": "Storytelling & writing",
+          "why": "Pixar's Andrew Stanton (Toy Story, WALL-E) lays out the first principles of story — make the audience care, give them a promise, let them do the work — the writing foundation under both your song lyrics and your film."
+        }
+      ]
+    }
+  ]
+}
