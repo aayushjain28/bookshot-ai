@@ -1,0 +1,14 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//First Principles University//Daily//EN
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+UID:fpu-daily-9am@first-principles-university
+DTSTAMP:20260801T000000Z
+DTSTART:20260803T090000
+DURATION:PT30M
+RRULE:FREQ=DAILY
+SUMMARY:FPU Daily — watch today's video
+DESCRIPTION:30 minutes\, one video. Open FPU → Daily for today's episode.
+END:VEVENT
+END:VCALENDAR

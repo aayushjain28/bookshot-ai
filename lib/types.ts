@@ -25,6 +25,33 @@ export interface Relationship {
   description: string;
 }
 
+export interface Episode {
+  id: string;
+  order: number;
+  title: string;
+  creator: string;
+  url: string;
+  videoId: string;
+  durationMin: number | null;
+  subtopic: string;
+  why: string;
+  trackSlug: string;
+}
+
+export interface Track {
+  slug: string;
+  title: string;
+  tagline: string;
+  episodes: Episode[];
+}
+
+export interface Goal {
+  id: string;
+  title: string;
+  description: string;
+  tracks: string[];
+}
+
 export interface KnowledgeObject {
   id: string;
   slug: string;

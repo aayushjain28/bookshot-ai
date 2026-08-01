@@ -3,12 +3,15 @@
 import Link from "next/link";
 import { CheckCircle2, Circle, Lock } from "lucide-react";
 import { concepts, completeConcepts } from "@/lib/data/concepts";
+import { totalEpisodes, tracks } from "@/lib/data/tracks";
 import { useProgress } from "@/lib/progress";
+import { useWatched } from "@/lib/watched";
 import { ProgressBar } from "@/components/ui/progress-bar";
 import { Card } from "@/components/ui/card";
 
 export default function ProgressPage() {
   const { completed, loaded } = useProgress();
+  const { watched, loaded: watchedLoaded } = useWatched();
   const percent = loaded
     ? (completed.length / completeConcepts.length) * 100
     : 0;
@@ -21,6 +24,42 @@ export default function ProgressPage() {
       </p>
 
       <Card className="mt-8">
+        <div className="flex items-center justify-between text-sm text-muted">
+          <span>Commute videos watched</span>
+          <span>
+            {watchedLoaded ? watched.length : 0} of {totalEpisodes}
+          </span>
+        </div>
+        <ProgressBar
+          value={
+            watchedLoaded && totalEpisodes
+              ? (watched.length / totalEpisodes) * 100
+              : 0
+          }
+          className="mt-3"
+        />
+        <div className="mt-4 grid grid-cols-2 gap-x-6 gap-y-1 sm:grid-cols-4">
+          {tracks.map((track) => {
+            const seen = track.episodes.filter((e) =>
+              watched.includes(e.id)
+            ).length;
+            return (
+              <Link
+                key={track.slug}
+                href={`/tracks/${track.slug}`}
+                className="flex justify-between gap-2 text-xs text-muted hover:text-foreground"
+              >
+                <span className="truncate">{track.title}</span>
+                <span className="shrink-0 tabular-nums">
+                  {seen}/{track.episodes.length}
+                </span>
+              </Link>
+            );
+          })}
+        </div>
+      </Card>
+
+      <Card className="mt-4">
         <div className="flex items-center justify-between text-sm text-muted">
           <span>Concepts completed</span>
           <span>
