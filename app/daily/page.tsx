@@ -34,7 +34,7 @@ export default function DailyPage() {
         <div>
           <h1 className="font-serif text-3xl">Daily</h1>
           <p className="mt-2 text-muted">
-            One video per commute. 8:45 AM, ~30 minutes.
+            One video or podcast per commute. Weekdays, 8:45 AM.
           </p>
         </div>
         <a
@@ -80,13 +80,21 @@ export default function DailyPage() {
             className="group mt-4 block"
           >
             <div className="relative overflow-hidden rounded-xl border border-border">
-              {/* YouTube thumbnails are stable and require no API */}
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src={`https://i.ytimg.com/vi/${today.videoId}/hqdefault.jpg`}
-                alt={today.title}
-                className="aspect-video w-full object-cover transition-transform duration-300 group-hover:scale-[1.02]"
-              />
+              {today.platform === "spotify" || !today.videoId ? (
+                <div className="flex aspect-video w-full items-center justify-center bg-accent-soft">
+                  <span className="text-sm font-medium uppercase tracking-widest text-accent">
+                    Podcast
+                  </span>
+                </div>
+              ) : (
+                /* YouTube thumbnails are stable and require no API */
+                /* eslint-disable-next-line @next/next/no-img-element */
+                <img
+                  src={`https://i.ytimg.com/vi/${today.videoId}/hqdefault.jpg`}
+                  alt={today.title}
+                  className="aspect-video w-full object-cover transition-transform duration-300 group-hover:scale-[1.02]"
+                />
+              )}
               <span className="absolute inset-0 flex items-center justify-center">
                 <span className="flex h-14 w-14 items-center justify-center rounded-full bg-black/60 text-white transition-colors group-hover:bg-black/80">
                   <Play className="ml-1 h-6 w-6" fill="currentColor" />
