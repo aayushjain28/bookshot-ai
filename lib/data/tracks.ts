@@ -14,6 +14,7 @@ interface RawEpisode {
   durationMin: number | null;
   subtopic: string;
   why: string;
+  platform?: "youtube" | "spotify";
 }
 
 interface RawTrack {
@@ -32,6 +33,7 @@ export const tracks: Track[] = (videosData.tracks as RawTrack[]).map((t) => ({
     id: `${t.slug}-${String(e.order).padStart(2, "0")}`,
     videoId: videoIdFrom(e.url),
     trackSlug: t.slug,
+    platform: e.platform ?? "youtube",
   })),
 }));
 
@@ -49,8 +51,9 @@ export const dailySequence: Episode[] = (() => {
   for (let i = 0; i < maxLen; i++) {
     for (const track of tracks) {
       const episode = track.episodes[i];
-      if (episode && !seenVideos.has(episode.videoId)) {
-        seenVideos.add(episode.videoId);
+      const key = episode?.videoId || episode?.url;
+      if (episode && key && !seenVideos.has(key)) {
+        seenVideos.add(key);
         sequence.push(episode);
       }
     }

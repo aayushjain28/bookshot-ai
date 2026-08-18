@@ -37,6 +37,13 @@ export const goals: Goal[] = [
     tracks: ["machines-and-manufacturing", "code-and-systems"],
   },
   {
+    id: "become-a-birder",
+    title: "Become a birder",
+    description:
+      "Learn to really see birds — field craft, identification by sight and call, and the species and hotspots of India.",
+    tracks: ["birding"],
+  },
+  {
     id: "make-ai-film",
     title: "Make a small AI-powered film",
     description:

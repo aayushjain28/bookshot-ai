@@ -32,12 +32,20 @@ export default function HomePage() {
               href="/daily"
               className="group relative block w-full shrink-0 overflow-hidden rounded-lg border border-border sm:w-56"
             >
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src={`https://i.ytimg.com/vi/${today.videoId}/mqdefault.jpg`}
-                alt={today.title}
-                className="aspect-video w-full object-cover"
-              />
+              {today.platform === "spotify" || !today.videoId ? (
+                <div className="flex aspect-video w-full items-center justify-center bg-accent-soft">
+                  <span className="text-xs font-medium uppercase tracking-widest text-accent">
+                    Podcast
+                  </span>
+                </div>
+              ) : (
+                /* eslint-disable-next-line @next/next/no-img-element */
+                <img
+                  src={`https://i.ytimg.com/vi/${today.videoId}/mqdefault.jpg`}
+                  alt={today.title}
+                  className="aspect-video w-full object-cover"
+                />
+              )}
               <span className="absolute inset-0 flex items-center justify-center">
                 <span className="flex h-10 w-10 items-center justify-center rounded-full bg-black/60 text-white transition-colors group-hover:bg-black/80">
                   <Play className="ml-0.5 h-4 w-4" fill="currentColor" />

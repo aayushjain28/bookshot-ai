@@ -49,6 +49,11 @@ export function EpisodeRow({
           </span>
         </a>
         <p className="mt-0.5 text-sm text-muted">
+          {episode.platform === "spotify" && (
+            <span className="mr-1.5 inline-flex items-center rounded-full bg-accent-soft px-2 py-0.5 text-xs font-medium text-accent">
+              Podcast
+            </span>
+          )}
           {episode.creator}
           {episode.durationMin ? ` · ~${episode.durationMin} min` : ""} ·{" "}
           {episode.subtopic}

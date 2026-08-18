@@ -36,6 +36,14 @@ export interface Episode {
   subtopic: string;
   why: string;
   trackSlug: string;
+  /** "youtube" (default) or "spotify" for podcasts. */
+  platform: "youtube" | "spotify";
+}
+
+export interface Note {
+  id: string;
+  text: string;
+  createdAt: string;
 }
 
 export interface Track {
