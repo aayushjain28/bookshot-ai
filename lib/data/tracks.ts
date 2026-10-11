@@ -6,6 +6,16 @@ function videoIdFrom(url: string): string {
   return match ? match[1] : "";
 }
 
+// Stable per-video id: keyed to the video/show itself, not its position in a
+// track, so inserting or reordering episodes never corrupts watched state.
+function stableIdFrom(url: string): string {
+  const yt = url.match(/[?&]v=([\w-]{6,})/);
+  if (yt) return `yt-${yt[1]}`;
+  const sp = url.match(/show\/([A-Za-z0-9]+)/);
+  if (sp) return `sp-${sp[1]}`;
+  return url;
+}
+
 interface RawEpisode {
   order: number;
   title: string;
@@ -30,7 +40,7 @@ export const tracks: Track[] = (videosData.tracks as RawTrack[]).map((t) => ({
   tagline: t.tagline,
   episodes: t.episodes.map((e) => ({
     ...e,
-    id: `${t.slug}-${String(e.order).padStart(2, "0")}`,
+    id: stableIdFrom(e.url),
     videoId: videoIdFrom(e.url),
     trackSlug: t.slug,
     platform: e.platform ?? "youtube",
