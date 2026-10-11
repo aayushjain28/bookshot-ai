@@ -60,7 +60,34 @@
           "why": "Compact history of why banks were invented, how credit works, and how banking failures cause crises — the core mechanic behind the rest of the track."
         },
         {
-          "order": 7,
+          "title": "Is There Such a Thing as Good Debt?",
+          "creator": "Two Cents (PBS)",
+          "url": "https://www.youtube.com/watch?v=gAQn2oGoUdM",
+          "durationMin": 7,
+          "subtopic": "Good debt vs bad debt",
+          "why": "When borrowing builds wealth and when it destroys it — the core mental model for using leverage for growth.",
+          "order": 7
+        },
+        {
+          "title": "Bonds (How Companies Borrow to Grow)",
+          "creator": "The Plain Bagel",
+          "url": "https://www.youtube.com/watch?v=V-fg5phkl1g",
+          "durationMin": 9,
+          "subtopic": "How businesses borrow",
+          "why": "How companies raise debt from investors to fund projects and growth — the business side of leverage and its risks.",
+          "order": 8
+        },
+        {
+          "title": "Should I Own a Credit Card? — CA Rachana Ranade",
+          "creator": "CA Rachana Phadke Ranade",
+          "url": "https://www.youtube.com/watch?v=R8ZWwkbS6Ww",
+          "durationMin": null,
+          "subtopic": "Credit in practice (India)",
+          "why": "Credit card myths debunked and how to use credit sensibly in the Indian system — practical credit-building for a founder.",
+          "order": 9
+        },
+        {
+          "order": 10,
           "title": "The History of Paper Money - Lay Down the Law - Extra History - #4",
           "creator": "Extra Credits (Extra History)",
           "url": "https://www.youtube.com/watch?v=lzH1p3t2oRE",
@@ -69,7 +96,7 @@
           "why": "The John Law episode — a government handing the money printer to one man — is history's clearest cautionary tale of state-created money and bubbles."
         },
         {
-          "order": 8,
+          "order": 11,
           "title": "How The Economic Machine Works by Ray Dalio",
           "creator": "Principles by Ray Dalio",
           "url": "https://www.youtube.com/watch?v=PHe0bXAIuk0",
@@ -78,7 +105,7 @@
           "why": "The anchor: transactions, credit, short- and long-term debt cycles, and central banks in one 30-minute mental model that ties everything before and after together."
         },
         {
-          "order": 9,
+          "order": 12,
           "title": "Inflation and Bubbles and Tulips: Crash Course Economics #7",
           "creator": "CrashCourse",
           "url": "https://www.youtube.com/watch?v=T8-85cZRI9o",
@@ -87,7 +114,7 @@
           "why": "Explains what inflation is, how it's measured, and how speculative bubbles form and pop — from tulips to housing — grounding inflation in real episodes."
         },
         {
-          "order": 10,
+          "order": 13,
           "title": "The History of Paper Money - The Gold Standard - Extra History - Part 6",
           "creator": "Extra Credits (Extra History)",
           "url": "https://www.youtube.com/watch?v=GNo7MDN5-0g",
@@ -96,7 +123,7 @@
           "why": "Closes the money-history arc: how the gold standard rose and fell, explaining why today's currencies float on government credibility alone."
         },
         {
-          "order": 11,
+          "order": 14,
           "title": "How the Fed Steers Interest Rates to Guide the Entire Economy | WSJ",
           "creator": "Wall Street Journal",
           "url": "https://www.youtube.com/watch?v=AkMsMDk_brU",
@@ -105,7 +132,7 @@
           "why": "Shows the actual modern mechanism — how a central bank moves interest rates and why that single lever steers credit, inflation, and the whole economy."
         },
         {
-          "order": 12,
+          "order": 15,
           "title": "The 2008 Financial Crisis: Crash Course Economics #12",
           "creator": "CrashCourse",
           "url": "https://www.youtube.com/watch?v=GPOv72Awo68",
@@ -114,7 +141,7 @@
           "why": "Applies everything learned — credit, banking, bubbles, central banks — to explain step by step how mortgages became a global meltdown and how governments responded."
         },
         {
-          "order": 13,
+          "order": 16,
           "title": "The Rules for Rulers",
           "creator": "CGP Grey",
           "url": "https://www.youtube.com/watch?v=rStL7niR7gs",
@@ -123,7 +150,7 @@
           "why": "First-principles model of political power — rulers must control treasure to keep keys to power loyal — revealing why every government ultimately fights over money."
         },
         {
-          "order": 14,
+          "order": 17,
           "title": "Principles for Dealing with the Changing World Order by Ray Dalio",
           "creator": "Principles by Ray Dalio",
           "url": "https://www.youtube.com/watch?v=xguam0TKMw8",
@@ -139,7 +166,7 @@
           "subtopic": "Podcast",
           "why": "Turns one economic idea per ~25-minute episode into a vivid story, perfect for making sense of money on a single commute.",
           "platform": "spotify",
-          "order": 15
+          "order": 18
         }
       ]
     },
@@ -230,7 +257,61 @@
           "why": "Introduces discounted cash flow — the first-principles way professionals turn a company's future cash into a fair price today."
         },
         {
-          "order": 10,
+          "title": "Introduction to Fundamental Analysis",
+          "creator": "Zerodha Varsity",
+          "url": "https://www.youtube.com/watch?v=8rUc0MaMzik",
+          "durationMin": null,
+          "subtopic": "What is fundamental analysis",
+          "why": "Zerodha Varsity's opening lesson frames why long-term investors need fundamental analysis — the right starting point before touching any financial statement.",
+          "order": 10
+        },
+        {
+          "title": "Stocks का Fundamental Analysis कैसे करें? | Value Investing",
+          "creator": "Pranjal Kamra",
+          "url": "https://www.youtube.com/watch?v=odI7IN23J4Q",
+          "durationMin": null,
+          "subtopic": "Fundamental analysis for beginners",
+          "why": "Pranjal Kamra walks through a practical, India-focused approach to analysing a stock's fundamentals with a value-investing lens (Hindi).",
+          "order": 11
+        },
+        {
+          "title": "How to Read a Balance Sheet",
+          "creator": "Groww",
+          "url": "https://www.youtube.com/watch?v=kgwiySrD1Hw",
+          "durationMin": 14,
+          "subtopic": "Reading a balance sheet",
+          "why": "Groww's official walkthrough of assets, liabilities, and how to actually read a listed company's balance sheet in a tool you likely already use.",
+          "order": 12
+        },
+        {
+          "title": "What Is P/E Ratio? Explained by CA Rachana Ranade",
+          "creator": "CA Rachana Phadke Ranade",
+          "url": "https://www.youtube.com/watch?v=c280rI1Ojtc",
+          "durationMin": null,
+          "subtopic": "Key valuation ratios (P/E)",
+          "why": "A CA explains the most-used valuation ratio with Indian stock and Nifty examples, building the ratio vocabulary needed for screening.",
+          "order": 13
+        },
+        {
+          "title": "How To Use Stock Screener (Screener.in) — with CA Rachana Ranade",
+          "creator": "CA Rachana Phadke Ranade",
+          "url": "https://www.youtube.com/watch?v=O0sfSvKOGsQ",
+          "durationMin": null,
+          "subtopic": "Using screener tools",
+          "why": "Hands-on session on Screener.in, the standard free tool for checking ratios and financials of Indian listed companies.",
+          "order": 14
+        },
+        {
+          "title": "How to Read an Annual Report — with Karthik Rangappa",
+          "creator": "Zerodha Varsity",
+          "url": "https://www.youtube.com/watch?v=fTIOzRPOXsk",
+          "durationMin": null,
+          "subtopic": "Reading an annual report end to end",
+          "why": "Varsity's Karthik Rangappa shows how to cut through an Indian annual report and extract what actually matters — the capstone for company fundamentals.",
+          "order": 15
+        },
+        {
+          "order": 16,
           "title": "What causes economic bubbles? - Prateek Singh",
           "creator": "TED-Ed",
           "url": "https://www.youtube.com/watch?v=I5ZR0jMlxX0",
@@ -239,7 +320,7 @@
           "why": "Uses tulip mania to show the universal anatomy of a bubble — speculation, mania, and collapse — in a few memorable minutes."
         },
         {
-          "order": 11,
+          "order": 17,
           "title": "The 2008 Financial Crisis: Crash Course Economics #12",
           "creator": "CrashCourse",
           "url": "https://www.youtube.com/watch?v=GPOv72Awo68",
@@ -248,7 +329,7 @@
           "why": "The definitive short explainer of how a housing bubble, mortgage securitization, and leverage produced a global crash — bridging your stock and real estate tracks."
         },
         {
-          "order": 12,
+          "order": 18,
           "title": "Why Houses Are So Expensive In The U.S.",
           "creator": "CNBC",
           "url": "https://www.youtube.com/watch?v=AcVaTIW-DGQ",
@@ -257,7 +338,7 @@
           "why": "Grounds housing prices in supply, land, labor, and materials constraints — the demand-and-supply first principles behind rising prices."
         },
         {
-          "order": 13,
+          "order": 19,
           "title": "Renting vs. Buying a Home: The 5% Rule",
           "creator": "Ben Felix (Common Sense Investing)",
           "url": "https://www.youtube.com/watch?v=Uwl3-jBNEd4",
@@ -266,7 +347,7 @@
           "why": "A rigorous framework comparing the true unrecoverable costs of renting versus owning, replacing gut feel with a simple calculable rule."
         },
         {
-          "order": 14,
+          "order": 20,
           "title": "Investing in Real Estate Through REITs",
           "creator": "The Plain Bagel",
           "url": "https://www.youtube.com/watch?v=mPC9mtcYmqk",
@@ -275,13 +356,40 @@
           "why": "Shows how to get real estate exposure through the stock market, connecting property investing back to the equity concepts from earlier videos."
         },
         {
-          "order": 15,
+          "order": 21,
           "title": "How to Analyze a Rental Property (From Start to Finish)",
           "creator": "BiggerPockets",
           "url": "https://www.youtube.com/watch?v=AiOwOMeVNnY",
           "durationMin": 30,
           "subtopic": "Evaluating a property and location",
           "why": "Applied capstone: walks through the actual numbers — income, expenses, cash flow, and return — used to decide whether a specific property and location are worth investing in."
+        },
+        {
+          "title": "Plot vs Flat: Best Property Investment Strategy Explained",
+          "creator": "The Real Asset Show",
+          "url": "https://www.youtube.com/watch?v=O43942wJC3Y",
+          "durationMin": null,
+          "subtopic": "Plots vs apartments",
+          "why": "Frames the core land-vs-apartment decision in Indian terms — appreciation, rental yield, construction optionality — before getting into transaction mechanics.",
+          "order": 22
+        },
+        {
+          "title": "10 Property Documents to Check Before Buying Property",
+          "creator": "Asset Yogi",
+          "url": "https://www.youtube.com/watch?v=x2XfAIWLUlE",
+          "durationMin": null,
+          "subtopic": "Land due diligence (India)",
+          "why": "Asset Yogi lists the key Indian property documents — title deed, encumbrance certificate, approvals — to verify before any plot purchase.",
+          "order": 23
+        },
+        {
+          "title": "Why NRIs Should NOT Buy Land in India",
+          "creator": "NRI Money Clinic",
+          "url": "https://www.youtube.com/watch?v=s74fUYmBX1M",
+          "durationMin": null,
+          "subtopic": "Risks of vacant land",
+          "why": "The major risks of holding vacant land in India — encroachment, verification, management — a useful counterweight before committing capital.",
+          "order": 24
         },
         {
           "title": "The Indicator from Planet Money",
@@ -291,7 +399,7 @@
           "subtopic": "Podcast",
           "why": "Daily 10-minute reads on markets, work, and business — stack two or three on a short ride to stay current.",
           "platform": "spotify",
-          "order": 16
+          "order": 25
         },
         {
           "title": "Acquired",
@@ -301,7 +409,7 @@
           "subtopic": "Podcast",
           "why": "Deeply researched histories of great companies and their capital strategies — chapter through one epic episode across a week of commutes.",
           "platform": "spotify",
-          "order": 17
+          "order": 26
         }
       ]
     },
@@ -1290,7 +1398,34 @@
           "why": "Five concrete techniques for making melodies and sections more interesting, ideal to apply directly while composing your first song."
         },
         {
-          "order": 14,
+          "title": "Writing Better Lyrics with the LYRIC CANVAS",
+          "creator": "Holistic Songwriting",
+          "url": "https://www.youtube.com/watch?v=9XjSVGFDieE",
+          "durationMin": 14,
+          "subtopic": "Writing lyrics",
+          "why": "Friedemann Findeisen's structured canvas method gives a repeatable process for generating lyric ideas that aren't cliché.",
+          "order": 14
+        },
+        {
+          "title": "How to Write a Great Melody (Over Chords)",
+          "creator": "Signals Music Studio",
+          "url": "https://www.youtube.com/watch?v=jA7gdz56LtY",
+          "durationMin": 14,
+          "subtopic": "Melody over chords",
+          "why": "Jake Lizzio's guitar-friendly tips for writing melody lines over a chord progression, ideal for a guitarist writing their first song.",
+          "order": 15
+        },
+        {
+          "title": "DO THIS to turn a loop into a song!",
+          "creator": "Andrew Huang",
+          "url": "https://www.youtube.com/watch?v=r5bG3nCMIUc",
+          "durationMin": 12,
+          "subtopic": "Arrangement & finishing songs",
+          "why": "Andrew Huang shows how to expand a short musical idea into a full arranged track, the exact skill needed to actually finish a song.",
+          "order": 16
+        },
+        {
+          "order": 17,
           "title": "The most feared song in jazz, explained",
           "creator": "Vox",
           "url": "https://www.youtube.com/watch?v=62tIvfP9A2w",
@@ -1299,16 +1434,97 @@
           "why": "Through Coltrane's 'Giant Steps' it shows what elite harmonic mastery and relentless practice actually look like, connecting the mastery psychology videos to real musicianship."
         },
         {
+          "title": "How Louis CK Tells A Joke",
+          "creator": "Nerdwriter1",
+          "url": "https://www.youtube.com/watch?v=ufdvYrTeTuU",
+          "durationMin": 8,
+          "subtopic": "Why comedy works",
+          "why": "A classic video essay deconstructing a single joke's rhythm, setup, and audience expectation to show from first principles why standup gets laughs.",
+          "order": 18
+        },
+        {
+          "title": "Jerry Seinfeld Interview: How to Write a Joke",
+          "creator": "The New York Times",
+          "url": "https://www.youtube.com/watch?v=itWxXyCfW5s",
+          "durationMin": 5,
+          "subtopic": "Joke structure",
+          "why": "Seinfeld walks through the anatomy of his Pop-Tart joke on his yellow legal pad, showing setup, word choice, and why the biggest laugh must land at the end.",
+          "order": 19
+        },
+        {
+          "title": "Gary Gulman Tweets Daily Advice For Young Comics",
+          "creator": "Team Coco",
+          "url": "https://www.youtube.com/watch?v=YZWpyWF1RHc",
+          "durationMin": 5,
+          "subtopic": "Writing material",
+          "why": "Gulman, famous for his year of daily craft tips, explains his writing advice for new comics directly on Conan.",
+          "order": 20
+        },
+        {
+          "title": "5 Dave Chappelle Techniques That Make You Funnier",
+          "creator": "Charisma on Command",
+          "url": "https://www.youtube.com/watch?v=YZRxX1XYgoQ",
+          "durationMin": 12,
+          "subtopic": "What makes great comics different",
+          "why": "Breaks down specific, stealable techniques from Chappelle's delivery and storytelling that separate elite comics from open-micers.",
+          "order": 21
+        },
+        {
+          "title": "7 Secrets to Open Mic Success",
+          "creator": "Jerry Corley (Stand Up Comedy Clinic)",
+          "url": "https://www.youtube.com/watch?v=qgKTW4RyS58",
+          "durationMin": null,
+          "subtopic": "Performing your first set",
+          "why": "Veteran comedy writer and teacher Jerry Corley gives concrete rules for succeeding at your first open mics.",
+          "order": 22
+        },
+        {
           "title": "Movies are Magic: Crash Course Film History #1",
           "creator": "CrashCourse",
           "url": "https://www.youtube.com/watch?v=vsnB4iBb78o",
           "durationMin": 10,
           "subtopic": "Origin of cinema",
           "why": "From Muybridge's galloping horse to the first movies — how humans learned to make pictures move, the origin of the art you want to make.",
-          "order": 15
+          "order": 23
         },
         {
-          "order": 16,
+          "title": "Three Act Structure Explained — The Secret to Telling a Great Story",
+          "creator": "StudioBinder",
+          "url": "https://www.youtube.com/watch?v=tvqjp1CxxD8",
+          "durationMin": 16,
+          "subtopic": "Screenplay structure",
+          "why": "StudioBinder's definitive explainer on setup, confrontation, and resolution, the structural foundation every script builds on.",
+          "order": 24
+        },
+        {
+          "title": "Anatomy of a Screenplay — Movie Script Format Explained (And Why It Matters)",
+          "creator": "StudioBinder",
+          "url": "https://www.youtube.com/watch?v=6PLSJBTzaGw",
+          "durationMin": 14,
+          "subtopic": "Screenplay formatting",
+          "why": "Shows every major screenplay element and its placement on the page, so a first script looks and reads professional.",
+          "order": 25
+        },
+        {
+          "title": "How to Write Short Films that WORK.",
+          "creator": "Standard Story Company",
+          "url": "https://www.youtube.com/watch?v=UDIYAfoqNSk",
+          "durationMin": 15,
+          "subtopic": "Writing a short film",
+          "why": "Covers structures built specifically for 1-15 minute films, like the two-act twist, instead of cramming a feature template into a short.",
+          "order": 26
+        },
+        {
+          "title": "Gone Girl — Don't Underestimate the Screenwriter",
+          "creator": "Lessons from the Screenplay",
+          "url": "https://www.youtube.com/watch?v=CF3lFPW4E1o",
+          "durationMin": 11,
+          "subtopic": "Screenplay analysis capstone",
+          "why": "A model script analysis examining three concrete techniques Gillian Flynn uses, showing what a great screenplay does on the page.",
+          "order": 27
+        },
+        {
+          "order": 28,
           "title": "The Pre-Production Process in Film Explained [Stages of Filmmaking, Ep 2]",
           "creator": "StudioBinder",
           "url": "https://www.youtube.com/watch?v=U6I1tMgjW-I",
@@ -1317,7 +1533,7 @@
           "why": "Covers scripts, storyboards, shot lists, and planning — the invisible ingredient list of a film, and exactly the stage where an AI-powered short film lives or dies."
         },
         {
-          "order": 17,
+          "order": 29,
           "title": "Film Production Explained — Each Step of the Production Process [Stages of Filmmaking, Ep 3]",
           "creator": "StudioBinder",
           "url": "https://www.youtube.com/watch?v=puF9CkvmJt0",
@@ -1326,7 +1542,7 @@
           "why": "Walks through how footage actually gets captured on set — roles, coverage, and workflow — completing the end-to-end picture of how a movie is made."
         },
         {
-          "order": 18,
+          "order": 30,
           "title": "How Does an Editor Think and Feel?",
           "creator": "Every Frame a Painting",
           "url": "https://www.youtube.com/watch?v=3Q3eITC01Fg",
@@ -1335,7 +1551,7 @@
           "why": "The definitive video essay on the instinct of when to cut, teaching you to feel rhythm and emotion in editing — a skill that transfers directly from music to film."
         },
         {
-          "order": 19,
+          "order": 31,
           "title": "The clues to a great story | Andrew Stanton",
           "creator": "TED",
           "url": "https://www.youtube.com/watch?v=KxDwieKpawg",
@@ -1351,7 +1567,7 @@
           "subtopic": "Podcast",
           "why": "Musicians dissect one song layer by layer in ~20 minutes — a masterclass in creative process for any commute.",
           "platform": "spotify",
-          "order": 20
+          "order": 32
         }
       ]
     },
